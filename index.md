@@ -2,4 +2,4 @@
 
 ### This is not my personal site. -mass_units Feb 4 2024
 
-[logo](https://cdn.akamai.steamstatic.com/steam/apps/2199420/header.jpg?t=1703700631)
+![logo](https://cdn.akamai.steamstatic.com/steam/apps/2199420/header.jpg?t=1703700631)
