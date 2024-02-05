@@ -5,7 +5,12 @@
     font-style: normal;
 }
 
-
+body {
+  font-family: 'GlacialIndifference';
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
 
 ## Welcome!
 
