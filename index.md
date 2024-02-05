@@ -1,10 +1,10 @@
 
 
-h1 [
+h1 {
     font-family: 'glacial_indifferenceregular';
     font-weight:normal;
     font-style:normal;
-]
+}
 ## Welcome!
 
 ### This is not my personal site. -mass_units Feb 4 2024
