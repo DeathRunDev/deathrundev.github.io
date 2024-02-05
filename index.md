@@ -1,4 +1,9 @@
-
+@font-face {  
+font-family: GlacialIndifference
+src: url("../Fonts/GlacialIndifference-Regular.otf") format('truetype');
+font-weight: bold;
+font-style: normal;
+}
 
 ## Welcome!
 
