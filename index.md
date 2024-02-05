@@ -1,11 +1,8 @@
-@font-face {
+h1 {
     font-family: 'glacial_indifferenceregular';
-    src: url('glacialindifference-regular-webfont.woff2') format('woff2'),
-         url('glacialindifference-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight:normal;
+    font-style:normal;
 }
-
 ## Welcome!
 
 ### This is not my personal site. -mass_units Feb 4 2024
