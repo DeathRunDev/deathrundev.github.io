@@ -1,4 +1,4 @@
-h1 {
+!h1 {
     font-family: 'glacial_indifferenceregular';
     font-weight:normal;
     font-style:normal;
