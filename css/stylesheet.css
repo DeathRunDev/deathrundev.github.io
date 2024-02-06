@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url('css/fonts/glacialindifference-regular-webfont.woff2') format('woff2');
+    src: url('../fonts/glacialindifference-regular-webfont.woff);
     font-weight: normal;
     font-style: normal;
 }
