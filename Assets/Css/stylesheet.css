@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url("Assets/Css/fonts/GlacialIndifference-Regular.otf") format("opentype");
+    src: url("/Assets/Css/fonts/GlacialIndifference-Regular.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
