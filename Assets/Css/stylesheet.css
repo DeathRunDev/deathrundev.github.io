@@ -20,7 +20,7 @@ h3 {
 }
 
 h2 {
-    font-family: myFirstFont, "Papyrus", cursive;
+    font-family: myFirstFont, "Papyrus", monospace;
     font-weight:normal;
     font-style:normal;
 }    
