@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url("../Css/fonts/GlacialIndifference-Regular.otf") format("opentype");
+    src: url("../Css/fonts/GlacialIndifference-Regular.otf");
     font-weight: normal;
     font-style: normal;
 }
 
 h1 {
-    font-family: myFirstFont, "Courier New", sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-weight:normal;
     font-style:normal;
 }
