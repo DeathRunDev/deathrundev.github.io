@@ -23,6 +23,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: GlacialBold
+    src: url("./fonts/GlacialIndifference-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
 
 h1 {
     font-family: "myFirstFont", "Courier New", monospace;
@@ -30,13 +36,13 @@ h1 {
     font-style:normal;
 }
 
-h3 {
-    font-family: Arial, "Courier New", sans-serif;
+h2 {
+    font-family: "GlacialBold", "Courier New", sans-serif;
     font-weight:normal;
     font-style:normal;
 }
 
-h2 {
+h3 {
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight:normal;
     font-style:normal;
