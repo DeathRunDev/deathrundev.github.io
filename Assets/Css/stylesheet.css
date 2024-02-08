@@ -71,6 +71,14 @@ header {
   color: white;
 }
 
+body {
+  background-color: #171326;
+  padding: 90px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
 footer {
   background-color: #171326;
   padding: 90px;
