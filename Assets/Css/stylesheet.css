@@ -70,3 +70,7 @@ header {
   font-size: 35px;
   color: white;
 }
+
+body {
+  background-color: powderblue;
+}
