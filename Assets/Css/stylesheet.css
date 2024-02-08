@@ -72,5 +72,9 @@ header {
 }
 
 body {
-  background-color: powderblue;
+  background-color: #171326;
+  padding: 90px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
