@@ -72,11 +72,11 @@ header {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: rgb(255, 99, 71);
 }
 
 footer {
-  background-color: rgb(255, 99, 71);
+  background-color: #171326;
   padding: 90px;
   text-align: center;
   font-size: 35px;
