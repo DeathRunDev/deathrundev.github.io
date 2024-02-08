@@ -6,6 +6,18 @@
     font-style: normal;
 }
 @font-face {
+    font-family: Roboto-Bold;
+    src: url("./Roboto-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Roboto-Italic;
+    src: url("./Roboto-Italic.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: myFirstFont;
     src: url("./GlacialIndifference-Regular.otf");
     font-weight: normal;
@@ -29,12 +41,22 @@ h2 {
     font-weight:normal;
     font-style:normal;
 } 
-h4 {
+p {
     font-family: "Roboto", "Courier New", monospace;
     font-weight:normal;
     font-style:normal;
 }
-   
+b {
+    font-family: "Roboto-Bold", "Courier New", monospace;
+    font-weight:normal;
+    font-style:normal;
+}
+i {
+    font-family: "Roboto-Italic", "Courier New", monospace;
+    font-weight:normal;
+    font-style:normal;
+}
+
 header {
   background-color: #171326;
   padding: 90px;
