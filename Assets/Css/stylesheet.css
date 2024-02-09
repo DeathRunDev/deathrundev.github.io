@@ -82,3 +82,10 @@ footer {
   font-size: 35px;
   color: white;
 }
+aside {
+  background-color: lightblue;
+  float: right;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
