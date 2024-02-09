@@ -100,3 +100,13 @@ aside {
   float: right;
   background-color: lightgray;
 }
+
+section {
+position: absolute;
+  position: fixed;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  background-color: lightgray;
+}
