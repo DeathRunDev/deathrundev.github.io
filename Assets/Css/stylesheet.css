@@ -103,10 +103,7 @@ aside {
 
 section {
 position: absolute;
-  position: fixed;
   width: 30%;
-  padding-right: 15px;
-  margin-right: 15px;
   float: left;
   background-color: lightgray;
 }
