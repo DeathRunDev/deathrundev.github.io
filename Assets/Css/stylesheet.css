@@ -105,8 +105,8 @@ section {
 position: absolute;
   position: fixed;
   width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
+  padding-right: 15px;
+  margin-right: 15px;
   float: left;
   background-color: lightgray;
 }
