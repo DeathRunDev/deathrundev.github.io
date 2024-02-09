@@ -92,18 +92,18 @@ nav {
   transition: all 0.3s ease-in-out;
 }
 
+section {
+  position: fixed;
+  width: 30%;
+  float: left;
+  background-color: lightgray;
+}
+
 aside {
   position: fixed;
   width: 30%;
   padding-left: 15px;
   margin-left: 15px;
   float: right;
-  background-color: lightgray;
-}
-
-section {
-  position: fixed;
-  width: 30%;
-  float: left;
   background-color: lightgray;
 }
