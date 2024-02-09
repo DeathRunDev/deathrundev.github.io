@@ -102,8 +102,7 @@ section {
 }
 
 aside {
-  position: right;
-  position: fixed;
+  position: right, fixed;
   width: 30%;
   padding-left: 15px;
   margin-left: 15px;
