@@ -84,9 +84,9 @@ footer {
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   background-color: #222;
-  top: 0;
+  top: 10;
   left: 0;
   right: 0;
   transition: all 0.3s ease-in-out;
