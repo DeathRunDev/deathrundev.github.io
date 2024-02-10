@@ -111,4 +111,5 @@ aside {
   float: right;
   background-color:rgba(255, 0, 0, 0.5);
   border: 2px Solid Violet;
+  overflow: auto;
 }
