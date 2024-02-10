@@ -117,13 +117,12 @@ aside {
 
 .itemconfiguration
 {
-		height:440px;
-		width:215px;
-		/* background-color:#CCC; */		
-        overflow-y:auto;
-		float:right;
-		position:relative;
-		margin-left:-5px;
+	height:440px;
+	width:215px;	
+       	 overflow-y:auto;
+	float:right;
+	position:relative;
+	margin-left:-5px;
 }
 .right_contentlist
 {
