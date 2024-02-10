@@ -127,14 +127,15 @@ aside {
 	margin-left:-5px;
 	
 	
+	
 }
 .right_contentlist
 {
     width:215px;
     float:right;
-    padding:0 0 0 0px;
+    padding: 15px;
     position:fixed;
     float:right;
     right: 0;
-    border-left: 10px #f8f7f3 solid;
+    border-left: 10px solid black;
 }
