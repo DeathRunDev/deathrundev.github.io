@@ -85,7 +85,7 @@ footer {
 
 nav {
   position: absolute;
-  background-color: #222;
+  background-color: #181325;
   top: 0;
   left: 0;
   right: 0;
@@ -146,7 +146,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #181325;
 }
 
 li {
@@ -171,7 +171,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #181325;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
