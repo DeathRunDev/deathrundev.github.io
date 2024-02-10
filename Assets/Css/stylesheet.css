@@ -122,6 +122,7 @@ aside {
 	overflow-x: hidden;	
        	overflow-y:Scroll;
 	float:right;
+	right: 0;
 	position:fixed;
 	margin-left:-5px;
 }
@@ -132,5 +133,6 @@ aside {
     padding:0 0 0 5px;
     position:fixed;
     float:right;
+    right: 0;
     border-right: 1px #f8f7f3 solid;
 }
