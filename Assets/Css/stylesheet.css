@@ -119,8 +119,8 @@ aside {
 {
 	height: 900px;
 	width:215px;
-	overflow-x: hidden;	
-       	overflow-y: scroll;
+	overflow-x:hidden;	
+       	overflow-y:scroll;
 	float:right;
 	right: 0;
 	position:fixed;
