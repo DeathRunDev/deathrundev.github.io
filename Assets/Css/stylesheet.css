@@ -117,15 +117,14 @@ aside {
 
 .itemconfiguration
 {
-	height:200px;
-	width:900px;
+	height:900px;
+	width:215px;
 	overflow-x:hidden;	
        	overflow-y:Scroll;
 	float:right;
 	right: 0;
 	position:fixed;
 	margin-left:-5px;
-	background-color: lightgray;
 	
 	
 }
@@ -137,5 +136,5 @@ aside {
     position:fixed;
     float:right;
     right: 0;
-    border-right: 1px #f8f7f3 solid;
+    border-left: 10px #f8f7f3 solid;
 }
