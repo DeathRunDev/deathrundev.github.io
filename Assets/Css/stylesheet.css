@@ -120,7 +120,7 @@ aside {
 	height:2000px;
 	width:215px;
 	overflow-x:hidden;	
-       	overflow-y:scroll;
+       	overflow-y:auto;
 	float:right;
 	right: 0;
 	position:fixed;
