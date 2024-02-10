@@ -117,7 +117,7 @@ aside {
 
 .itemconfiguration
 {
-	height:440px;
+	height: Auto;
 	width:215px;
 	overflow-x: hidden;	
        	overflow-y:Scroll;
