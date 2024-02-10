@@ -64,10 +64,9 @@ i {
 }
 
 header {
-  background-color: #181325;
-  padding: 30px;
+  padding: 0px;
   text-align: center;
-  font-size: 35px;
+  font-size: 0px;
   color: white;
 }
 
