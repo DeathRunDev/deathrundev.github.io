@@ -87,6 +87,9 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+  Color: white;
+  text-align: center;
+  font-size: 50px;
 }
 
 section {
