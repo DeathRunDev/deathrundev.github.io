@@ -183,22 +183,22 @@ li a:hover {
 }
 
 a:link {
-  color: green;
+  color: rgba(217, 225, 231, 255);
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: pink;
+  color: rgba(37, 161, 199, 255);
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: red;
+  color: rgba(37, 161, 199, 255);
   background-color: transparent;
   text-decoration: underline;
 }
 a:active {
-  color: yellow;
+  color: rgba(37, 161, 199, 255);
   background-color: transparent;
   text-decoration: underline;
 }
