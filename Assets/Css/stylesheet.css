@@ -119,7 +119,6 @@ aside {
   overflow-y: scroll;
 }
 .dropbtn {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #4CAF50;
@@ -131,7 +130,7 @@ aside {
 }
 
 .dropdown {
-  position: relative;
+  position: sticky;
   display: inline-block;
 }
 
