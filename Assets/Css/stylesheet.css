@@ -119,8 +119,6 @@ aside {
   overflow-y: scroll;
 }
 .dropbtn {
-  position: -webkit-sticky;
-  position: sticky;
   background-color: #4CAF50;
   color: white;
   padding: 16px;
@@ -203,4 +201,13 @@ a:active {
   color: rgba(37, 161, 199, 255);
   background-color: transparent;
   text-decoration: none;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
 }
