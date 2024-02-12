@@ -178,3 +178,8 @@ li a {
 li a:hover {
   color: #3e8e41;
 }
+
+.anch{float:left; display:inline-block;}
+.sep{float:left; display:inline; margin-left:10px; margin-right:10px; width:1px; height:12px; background-color:#000; margin-top:5px;}
+.info{float:left;}
+.right_anch{float:right; display:inline-block;}
