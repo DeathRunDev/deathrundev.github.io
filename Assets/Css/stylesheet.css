@@ -119,14 +119,6 @@ aside {
   overflow-y: scroll;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgba(5, 12, 80, 0.2);
-}
-
 li {
   float: right;
 }
@@ -202,7 +194,7 @@ li.dropdown {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  
+  overflow: scroll;
 }
 
 .dropdown-content a {
@@ -211,7 +203,6 @@ li.dropdown {
   text-decoration: none;
   display: block;
   text-align: left;
-  overflow: scroll;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
