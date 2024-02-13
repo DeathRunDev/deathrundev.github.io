@@ -165,13 +165,13 @@ a:active {
   cursor: pointer;
   position: -webkit-sticky;
   position: sticky;
-  right: 0;
   top: 0;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  float: right;
 }
 
 .dropdown-content {
