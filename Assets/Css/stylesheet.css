@@ -97,13 +97,14 @@ nav {
 }
 
 section {
-  position: Sticky;
-  right: 0;
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
+  background-color: rgba(24,19,37,255);
+  top: 0;
+  color: white;
+  padding: 16px 50px;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 2px;
   float: right;
-  background-color: lightgray;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
