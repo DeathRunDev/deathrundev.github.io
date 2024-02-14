@@ -102,7 +102,7 @@ section {
   color: rgba(217, 225, 231, 255);
   padding: 18px 50px;
   font-size: 16px;
-  border-top-style: none;
+  border-top-style: solid;
   border-right-style: none;
   border-bottom-style: none;
   border-left-style: solid;
