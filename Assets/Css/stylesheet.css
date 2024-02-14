@@ -112,7 +112,7 @@ section {
 }
 
 aside {
-  background-color: 24, 19, 37, 255;
+  background-color: rgba(24, 19, 37, 255);
   top: 0;
   color: white;
   padding: 18px 50px;
