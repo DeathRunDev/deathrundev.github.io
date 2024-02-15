@@ -1,9 +1,9 @@
 header {
+  position: sticky;
   padding: 150px 0 100px;
 }
 
 section {
-  position: sticky
   min-height: 600px;
   padding: 50px 0 50px;
 }
