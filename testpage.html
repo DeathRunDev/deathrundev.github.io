@@ -16,27 +16,14 @@ Heck yeah!
 <a href="https://deathrundev.github.io/testpage.html"><img style="vertical-align: middle" src=./Assets/images/Logo-Deathrun-Fixed.png></img></a> <i style="color: rgba(24, 19, 37, 255)">_________________________</i><i><a href="html_images.asp" target="_blank">Home</a> <a href="html_images.asp" target="_blank">News</a> <a href="html_images.asp" target="_blank">Blog</a> <a href="html_images.asp" target="_blank">Discord</a></i>
 </nav> 
 <br>
-<nav>  
+<section>  
   <ul>
     <li><a href="#1">section 1</a></li>
     <li><a href="#2">section 2</a></li>
     <li><a href="#3">section 3</a></li>
     <li><a href="#4">section 4</a></li>
   </ul>
-  <!-- (2) Include StickyNav -->
-    <script src="./Assets/pages.js"></script>
-    <script>
-      // (3) Instantiate StickyNav
-      $(document).ready(function() {
-        $('nav').stickynav();
-
-        $('.navbar-toggler').click(() => {
-          $('.navbar-collapse').toggleClass('show');
-        });
-      });
-    </script>
-
-</nav>
+</section>
 <br>
 <br>
 <br>
@@ -236,7 +223,23 @@ The game’s vast world allows you to build anything you can imagine, from small
 <h2 id="4">Jump point test</h2>
 <p>This is a jump point test</p>
 <p><a href="1">back to top</a></p>
+<footer>FOOTER | 1 | </footer>
+    <!-- (1) Include jQuery -->
+    <script src="js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="js/vendor/babel-polyfill-6.26.0.min.js"></script>
+
+    <!-- (2) Include StickyNav -->
+    <script src="./Assets/pages.js"></script>
+    <script>
+      // (3) Instantiate StickyNav
+      $(document).ready(function() {
+        $('nav').stickynav();
+
+        $('.navbar-toggler').click(() => {
+          $('.navbar-collapse').toggleClass('show');
+        });
+      });
+    </script>
   </body>
-<footer>FOOTER | 1 |</footer>
 </html>
 
