@@ -23,12 +23,19 @@ Heck yeah!
     <li><a href="#3">section 3</a></li>
     <li><a href="#4">section 4</a></li>
   </ul>
-<script src="./Assets/pages.js"></script>
-<script>
-$(function(){
-  $('nav').stickynav();
-});
-</script>
+  <!-- (2) Include StickyNav -->
+    <script src="./Assets/pages.js"></script>
+    <script>
+      // (3) Instantiate StickyNav
+      $(document).ready(function() {
+        $('nav').stickynav();
+
+        $('.navbar-toggler').click(() => {
+          $('.navbar-collapse').toggleClass('show');
+        });
+      });
+    </script>
+
 </nav>
 <br>
 <br>
