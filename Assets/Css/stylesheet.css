@@ -82,8 +82,8 @@ footer {
 }
 
 nav {
-  position: sticky;
-  background-color: rgba(24,19,37,255);
+  position: absolute;
+  background-color: rgba(217,225,231,255);
   top: 0;
   left: 0;
   right: 0;
