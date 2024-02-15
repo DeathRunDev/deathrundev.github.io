@@ -3,6 +3,7 @@ header {
 }
 
 section {
+  position: sticky
   min-height: 600px;
   padding: 50px 0 50px;
 }
