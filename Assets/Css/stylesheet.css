@@ -144,7 +144,7 @@ li a:hover {
 }
 
 a:link {
-  color: rgba(230, 210, 175, 255);
+  color: rgba(217, 225, 231, 255);
   background-color: transparent;
   text-decoration: none;
 }
@@ -159,7 +159,7 @@ a:hover {
   text-decoration: none;
 }
 a:active {
-  color: rgba(217, 255, 231, 255);
+  color: rgba(37, 161, 199, 255);
   background-color: transparent;
   text-decoration: none;
 }
