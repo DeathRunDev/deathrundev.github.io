@@ -1,3 +1,127 @@
-/*! jquery.sticky-nav.js 1.1.0 Copyright (c) Federico Cargnelutti - 06-07-2018 */
-!function i(o,r,c){function l(e,t){if(!r[e]){if(!o[e]){var n="function"==typeof require&&require;if(!t&&n)return n(e,!0);if(u)return u(e,!0);var s=new Error("Cannot find module '"+e+"'");throw s.code="MODULE_NOT_FOUND",s}var a=r[e]={exports:{}};o[e][0].call(a.exports,function(t){return l(o[e][1][t]||t)},a,a.exports,i,o,r,c)}return r[e].exports}for(var u="function"==typeof require&&require,t=0;t<c.length;t++)l(c[t]);return l}({1:[function(t,e,n){"use strict";var h;(h=jQuery).fn.stickynav=function(s){s=h.extend({},{navActiveClass:"active",navStickyClass:"sticky",sectionSelector:"section"},s);var n,a,i,o=this,e=o.find("a"),t=h(s.sectionSelector),r=o.height(),c=t.first().height()/2,l=0,u=[0];function f(t){t.preventDefault();var e=h(this).attr("href");h(e).length&&(d(this),h("html, body").animate({scrollTop:h(e).offset().top-r}))}function v(){var n,t=h(document).scrollTop()+r,e=(n=t,u.reduce(function(t,e){return Math.abs(e-n)<Math.abs(t-n)?e:t}));e!==l&&(d(".section-offset-"+e),l=e),c<t?o.addClass(s.navStickyClass):o.removeClass(s.navStickyClass)}function d(t){o.hasClass(s.navStickyClass)||o.addClass(s.navStickyClass),e.removeClass(s.navActiveClass),h(t).addClass(s.navActiveClass)}t.each(function(t){var e,n,s,a=h(this)[0],i=(e=a.getBoundingClientRect(),n=window.pageYOffset||document.documentElement.scrollTop,Math.round(e.top+n));u.push(i),(s=a,h('nav a[href="#'+h(s).attr("id")+'"]')).addClass("section-offset-"+i)}),e.on("click",f),h(window).on("scroll",(n=v,a=20,i=0,function(){var t=this,e=[].slice.call(arguments);clearTimeout(i),i=setTimeout(function(){n.apply(t,e)},a)}))}},{}]},{},[1]);
+/*!============================================================
+ * jquery.sticky-nav.js
+ * Copyright (c) Federico Cargnelutti <fedecarg@gmail.com>
+ * http://www.fedecarg.com/
+ ============================================================*/
 
+(function($) {
+
+  $.fn.stickynav = function(options) {
+
+    const DEFAULT_SELECTORS = {
+      navActiveClass:    'active',   // Selected nav item modifier class
+      navStickyClass:    'sticky',   // Sticky nav modifier class
+      sectionSelector:   'section'   // Section id, class or tag selector
+    };
+
+    // Merge options with defaults
+    options = $.extend({}, DEFAULT_SELECTORS, options);
+
+    // Set jQuery DOM elements
+    const $nav = this;
+    const $navLinks = $nav.find('a');
+    const $sections = $(options.sectionSelector);
+
+    const navHeight = $nav.height();
+    const scrollTopOffset = $sections.first().height() / 2;
+
+    let currentScrollPosition = 0;
+    let offsetNumbers = [0];
+
+
+    function initialise() {
+      calculateOffsets();
+      bindEvents();
+    }
+
+    function bindEvents() {
+      $navLinks.on('click', onClick);
+      $(window).on('scroll', throttle(onScroll, 20));
+    }
+
+    function onClick(e) {
+      e.preventDefault();
+      const targetEl = $(this).attr('href');
+
+      if ($(targetEl).length) {
+        selectNavItem(this);
+
+          $('html, body').animate({
+            scrollTop: $(targetEl).offset().top - navHeight
+          });
+        }
+    }
+
+    function onScroll() {
+      var scrollTop = $(document).scrollTop() + navHeight,
+          closestPosition = findClosestNumber(scrollTop, offsetNumbers);
+
+      // select navbar item
+      if (closestPosition !== currentScrollPosition) {
+        selectNavItem('.section-offset-' + closestPosition);
+        currentScrollPosition = closestPosition;
+      }
+
+      // fix navbar
+      if (scrollTop > scrollTopOffset) {
+        $nav.addClass(options.navStickyClass);
+      } else {
+        $nav.removeClass(options.navStickyClass);
+      }
+    }
+
+    function findClosestNumber(num, arr) {
+      return arr.reduce(function(prev, curr) {
+        return (Math.abs(curr - num) < Math.abs(prev - num) ? curr : prev);
+      });
+    }
+
+    function calculateOffsets() {
+      $sections.each(function(index) {
+        const el = $(this)[0];
+        const offsetTop = getOffsetTop(el);
+
+        offsetNumbers.push(offsetTop);
+        getNavItem(el).addClass('section-offset-' + offsetTop);
+      });
+    }
+
+    function getOffsetTop(el) {
+        const rect = el.getBoundingClientRect(),
+              scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        return Math.round(rect.top + scrollTop);
+    }
+
+    function getNavItem(el) {
+      return $('nav a[href="#' + $(el).attr('id') + '"]');
+    }
+
+    function selectNavItem(el) {
+      if (!$nav.hasClass(options.navStickyClass)) {
+        $nav.addClass(options.navStickyClass);
+      }
+
+      $navLinks.removeClass(options.navActiveClass);
+      $(el).addClass(options.navActiveClass);
+    }
+
+    function throttle(func, delay) {
+      let timer = 0;
+
+      return function() {
+        const context = this,
+        args = [].slice.call(arguments);
+
+        clearTimeout(timer);
+        timer = setTimeout(function() {
+          func.apply(context, args);
+        }, delay);
+      };
+    }
+
+    initialise();
+  };
+
+}(jQuery))
+;
