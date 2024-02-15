@@ -8,8 +8,6 @@ section {
 }
 
 .navbar .nav-link {
-  position: sticky;
-  top: 0;
   border-radius: 8px;
   margin: 0 8px;
   padding: 8px;
