@@ -40,7 +40,8 @@ h1 {
   border-left-style: none;
   border-color: rgb(240, 248, 255);
   border-width: 0px 0px 2px 0px;
-  text-indent: 50px%; 
+  text-indent: 50px; 
+  padding: 0px 0px 30px;
 }
 
 h2 {
