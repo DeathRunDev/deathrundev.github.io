@@ -98,7 +98,7 @@ nav {
 
 section {
   background-color: white;
-  color: black;
+  color: rgba(24, 19, 37, 255);
   padding: 18px 50px;
   font-size: 16px;
   border-top-style: none;
@@ -143,12 +143,12 @@ li a:hover {
 }
 
 a:link {
-  color: rgba(217, 225, 231, 255);
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: rgba(217, 255, 231, 255);
+  color: );
   background-color: transparent;
   text-decoration: none;
 }
