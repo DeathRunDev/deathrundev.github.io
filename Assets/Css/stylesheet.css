@@ -38,9 +38,9 @@ h1 {
   border-right-style: none;
   border-bottom-style: inset;
   border-left-style: none;
-  border-color: rgba(24, 19, 37, 50);
+  border-color: rgb(240, 248, 255);
   border-width: 0px 0px 2px 0px;
-  text-indent: -20px%; 
+  text-indent: 50px%; 
 }
 
 h2 {
