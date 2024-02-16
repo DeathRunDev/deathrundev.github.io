@@ -74,7 +74,6 @@ body {
 }
 
 footer {
-  position: absolute;
   background-color: #181325;
   padding: 90px;
   text-align: center;
@@ -83,7 +82,7 @@ footer {
 }
 
 nav {
-  position: sticky;
+  position: absolute;
   background-color: rgba(24, 19, 37, 255);
   top: 0;
   left: 0;
