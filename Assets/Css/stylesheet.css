@@ -31,9 +31,15 @@
 }
 
 h1 {
-    font-family: "Roboto", "Courier New", monospace;
-    font-weight:normal;
-    font-style:normal;
+  font-family: "Roboto", "Courier New", monospace;
+  font-weight:normal;
+  font-style:normal;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: inset;
+  border-left-style: none;
+  border-color: rgba(24, 19, 37, 50);
+  border-width: 0px 0px 2px 0px;
 }
 
 h2 {
