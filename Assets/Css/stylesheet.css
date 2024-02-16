@@ -143,12 +143,12 @@ li a:hover {
 }
 
 a:link {
-  color: black;
+  color: rgba(217, 225, 231, 255);
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: );
+  color: rgba(217, 225, 231, 255);
   background-color: transparent;
   text-decoration: none;
 }
