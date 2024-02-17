@@ -111,19 +111,13 @@ nav {
 }
 
 section {
+  position: -webkit-sticky;
+  position: sticky;
   background-color: rgba(24, 19, 37, 255);
   color: White;
   padding: 10px 10px;
   font-size: 16px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-color: Black;
-  border-width: 2px 2px 2px 2px;
   float: right;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
 }
 
