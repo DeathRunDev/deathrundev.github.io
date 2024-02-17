@@ -137,10 +137,6 @@ aside {
   top: 0;
 }
 
-li {
-  float: right;
-}
-
 li a {
   display: block;
   color: white;
