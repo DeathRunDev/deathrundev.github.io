@@ -57,6 +57,12 @@ h3 {
     font-weight:normal;
     font-style:normal;
     font-size: 25px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: inset;
+  border-left-style: none;
+  border-color: rgb(240, 248, 255);
+  border-width: 0px 0px 2px 0px;
 } 
 p {
     font-family: "Roboto", "Courier New", monospace;
