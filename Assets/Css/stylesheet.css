@@ -126,6 +126,11 @@ aside {
   padding: 18px 50px;
   font-size: 16px;
   float: right;
+  max-width: 1100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
 li a {
