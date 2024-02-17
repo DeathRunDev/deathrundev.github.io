@@ -34,7 +34,13 @@ h1 {
   font-family: "Roboto", "Courier New", monospace;
   font-weight:normal;
   font-style:normal;
-  border-top-style: none;
+}
+
+h2 {
+    font-family: "Roboto-Bold", "Courier New", sans-serif;
+    font-weight:normal;
+    font-style:normal;
+     border-top-style: none;
   border-right-style: none;
   border-bottom-style: inset;
   border-left-style: none;
@@ -44,12 +50,6 @@ h1 {
   text-align: center;
   padding: 0px 0px 30px;
   font-size: 50px;
-}
-
-h2 {
-    font-family: "Roboto-Bold", "Courier New", sans-serif;
-    font-weight:normal;
-    font-style:normal;
 }
 
 h3 {
