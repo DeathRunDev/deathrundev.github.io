@@ -91,9 +91,9 @@ body {
   font-family: "Roboto", "Courier New", monospace;
   font-weight:normal;
   font-style:normal;
-  background-image: url(placeholder);
+  background-image: url(../Assets/images/stud.svg);
   background-repeat:repeat-x;
-  background-attachment: fixed;
+  background-attachment: absolute;
   background-position: right bottom; 
 }
 
