@@ -109,6 +109,7 @@ footer {
    background-color: #181325;
    color: white;
    text-align: center;
+   background-image: url("cityimage2.png");
 }
 nav {
   position: absolute;
