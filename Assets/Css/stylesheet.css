@@ -81,7 +81,7 @@ header {
 }
 
 body {
-  background-color: White;
+  background-color: rgba(24, 19, 37, 255);
   font-family: "Roboto", "Courier New", monospace;
   font-weight:normal;
   font-style:normal;
@@ -122,6 +122,7 @@ section {
 }
 
 aside {
+  background-color: white;
   top: 0;
   font-size: 16px;
   max-width: 1000px;
