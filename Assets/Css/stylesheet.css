@@ -88,6 +88,7 @@ header {
 
 body {
   background-color: white;
+  background-image: url("./Assets/images/Screenshot_2024-02-03_133724.png")
   font-family: "Roboto", "Courier New", monospace;
   font-weight:normal;
   font-style:normal;
@@ -109,7 +110,6 @@ footer {
    background-color: #181325;
    color: white;
    text-align: center;
-   background-image: url("cityimage2.png");
 }
 nav {
   position: absolute;
