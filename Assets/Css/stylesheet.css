@@ -93,7 +93,6 @@ body {
   font-style:normal;
   background-image: url("../images/stud.svg");
   background-repeat: repeat-x;
-  background-attachment: fixed;
   background-position: left bottom; 
 }
 
