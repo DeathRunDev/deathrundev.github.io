@@ -91,7 +91,7 @@ body {
   font-family: "Roboto", "Courier New", monospace;
   font-weight:normal;
   font-style:normal;
-  background-image: url("./Assets/images/cityimage1.png");
+  background-image: url("../images/cityimage1.png");
 }
 
 footer {
