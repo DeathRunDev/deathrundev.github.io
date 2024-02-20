@@ -267,3 +267,13 @@ html {
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.box {
+   position: absolute;
+   left: 50;
+   bottom: 0;
+   width: 100%;
+   background-color: #181325;
+   color: white;
+   text-align: center;
+}
