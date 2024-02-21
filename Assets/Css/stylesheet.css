@@ -207,3 +207,27 @@ html {
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.btn {
+  border: full;
+  background-color: inherit;
+  padding: 0px 0px 0px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+/* Blue */
+.info {
+  color: dodgerblue;
+  text-align:center;
+  max-width: 400px;
+  margin-right: 50px;
+  margin-left: 150px;
+  overflow-wrap: break-word;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
