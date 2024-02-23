@@ -222,7 +222,6 @@ html {
  button {
       display: inline-block;
       margin: 10px; /* Adjust margin for spacing between buttons */
-      padding: 60px 120px;
       font-size: 18px;
       background-color: #4CAF50;
       color: #ffffff;
@@ -233,6 +232,14 @@ html {
 
     .small-buttons {
       margin-top: 20px;
+    }
+
+.larger-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 60px 120px;
+      background: url('your-image.jpg') center/cover;
+      width: calc(20px + 40px + 20px + 40px + 20px + 40px);
     }
 
     .small-buttons button {
