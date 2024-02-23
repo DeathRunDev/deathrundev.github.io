@@ -214,34 +214,24 @@ html {
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
-.btn {
-  border: full;
-  background-color: inherit;
-  padding: 0px 0px 0px 0px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-}
-#container {
+.button-container {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 
-        .large-button, .small-button {
+.large-button, .small-button {
             width: 200px; /* Adjust the width as needed */
             padding: 10px;
             margin: 5px;
             text-align: center;
             cursor: pointer;
             background-color: #3498db; /* Blue color, you can change this */
-            color: #ffffff; /* White text, you can change this */
+            color: #fff; /* White text, you can change this */
             border: none;
             border-radius: 5px;
         }
 
-        .small-button {
-            width: calc(33.33% - 10px); /* 3 buttons with margin between them */
+.small-button {
+            width: 100%; /* Full width */
         }
-
-
