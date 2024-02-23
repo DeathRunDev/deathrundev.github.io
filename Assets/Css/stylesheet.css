@@ -237,12 +237,12 @@ html {
 .larger-button {
       display: inline-block;
       margin: 10px;
-      padding: 175px 150px; /* Adjust padding for a larger button */
+      padding: 175px 200px; /* Adjust padding for a larger button */
       width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
     }
 
     .small-buttons button {
       margin: 0 20px; /* Adjust margin for spacing between small buttons */
-      padding: 125px 150px;
+      padding: 150px 200px;
       font-size: 16px;
     }
