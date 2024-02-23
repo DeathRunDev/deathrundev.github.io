@@ -208,24 +208,12 @@ html {
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
-.button-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+    .hidden-on-small {
+      display: block; /* Default display for larger screens */
+    }
 
-.large-button, .small-button {
-            width: 200px; /* Adjust the width as needed */
-            padding: 10px;
-            margin: 5px;
-            text-align: center;
-            cursor: pointer;
-            background-color: #3498db; /* Blue color, you can change this */
-            color: #fff; /* White text, you can change this */
-            border: none;
-            border-radius: 5px;
-        }
-
-.small-button {
-            width: 100%; /* Full width */
-        }
+    @media only screen and (max-width: 600px) {
+      .hidden-on-small {
+        display: none; /* Hide on screens with a width of 600 pixels or less */
+      }
+    }
