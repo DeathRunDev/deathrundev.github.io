@@ -93,7 +93,8 @@ body {
   font-style:normal;
   background-image: url("../images/stud.svg");
   background-repeat: repeat-x;
-  background-position: left bottom; 
+  background-position: left bottom;
+  text-align: center;
 }
 
 footer {
@@ -216,4 +217,26 @@ html {
       .hidden-on-small {
         display: none; /* Hide on screens with a width of 800 pixels or less */
       }
+    }
+
+ button {
+      display: inline-block;
+      margin: 10px; /* Adjust margin for spacing between buttons */
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .small-buttons {
+      margin-top: 20px;
+    }
+
+    .small-buttons button {
+      margin: 0 10px; /* Adjust margin for spacing between small buttons */
+      padding: 10px 20px;
+      font-size: 16px;
     }
