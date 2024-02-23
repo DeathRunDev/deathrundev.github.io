@@ -94,6 +94,12 @@ body {
   background-image: url("../images/stud.svg");
   background-repeat: repeat-x;
   background-position: left bottom; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
 footer {
@@ -216,18 +222,26 @@ html {
   cursor: pointer;
   display: inline-block;
 }
+#container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .large-button, .small-button {
+            width: 200px; /* Adjust the width as needed */
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #3498db; /* Blue color, you can change this */
+            color: #ffffff; /* White text, you can change this */
+            border: none;
+            border-radius: 5px;
+        }
+
+        .small-button {
+            width: calc(33.33% - 10px); /* 3 buttons with margin between them */
+        }
 
 
-/* Blue */
-.info {
-  color: dodgerblue;
-  text-align:center;
-  max-width: 200px;
-  margin-right: 100px;
-  margin-left: 100px;
-  overflow-wrap: break-word;
-}
-
-.info:hover {
-  background: #2196F3;
-  color: white;
