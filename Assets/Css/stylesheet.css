@@ -222,7 +222,8 @@ html {
  button {
       display: inline-block;
       margin: 10px; /* Adjust margin for spacing between buttons */
-      padding: 120px 100px;
+      padding: 30px 60px;
+      width: calc(20px + 40px + 20px + 40px + 20px + 40px);
       font-size: 18px;
       background-color: #4CAF50;
       color: #ffffff;
