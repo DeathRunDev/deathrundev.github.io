@@ -232,13 +232,14 @@ html {
 
     .small-buttons {
       margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
     }
 
 .larger-button {
       display: inline-block;
       margin: 10px;
-      padding: 60px 120px;
-      background: url('your-image.jpg') center/cover;
+      padding: 30px 60px;
       width: calc(20px + 40px + 20px + 40px + 20px + 40px);
     }
 
