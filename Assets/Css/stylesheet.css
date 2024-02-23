@@ -237,8 +237,8 @@ html {
 .larger-button {
       display: inline-block;
       margin: 10px;
-      padding: 100px 300px; /* Adjust padding for a larger button */
-      width: calc(100px + 300px + 100px + 300px + 100px + 300px); /* Adjust width for a larger button */
+      padding: 300px 200px; /* Adjust padding for a larger button */
+      width: calc(300px + 200px + 300px + 200px + 300px + 200px); /* Adjust width for a larger button */
     }
 
     .small-buttons button {
