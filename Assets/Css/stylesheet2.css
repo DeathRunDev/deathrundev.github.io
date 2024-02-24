@@ -248,5 +248,6 @@ html {
       margin: 0 20px; /* Adjust margin for spacing between small buttons */
       padding: 100px 118px;
       font-size: 16px;
+      text-align: left;
     }
 
