@@ -227,11 +227,16 @@ html {
       border: none;
       border-radius: 8px;
       cursor: pointer;
+      max-width: 200px; /* Set your desired maximum width */
+      word-wrap: break-word;
     }
 
     .small-buttons {
       margin-top: 20px;
       margin-bottom: 10px;
+      display: flex;
+     flex-wrap: wrap; /* Allow buttons to wrap onto the next line */
+  justify-content: center;
     }
 
 .larger-button {
