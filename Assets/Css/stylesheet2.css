@@ -93,7 +93,7 @@ body {
   background-image: url("../images/stud.svg");
   background-repeat: repeat-x;
   background-position: left bottom;
-  text-align: center;
+  text-align: left;
 }
 
 footer {
@@ -246,6 +246,4 @@ html {
       margin: 0 20px; /* Adjust margin for spacing between small buttons */
       padding: 100px 118px;
       font-size: 16px;
-      max-width: 200px;
-      max-height: 200px;
     }
