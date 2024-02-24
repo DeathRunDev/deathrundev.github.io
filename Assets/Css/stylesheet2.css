@@ -232,10 +232,7 @@ html {
     .small-buttons {
       margin-top: 20px;
       margin-bottom: 10px;
-      display: flex;
-     flex-wrap: wrap; /* Allow buttons to wrap onto the next line */
-  justify-content: center;
-  max-width: 175px; /* Set your desired maximum width */
+      max-width: 175px; /* Set your desired maximum width */
       word-wrap: break-word;
     }
 
