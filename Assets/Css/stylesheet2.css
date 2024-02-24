@@ -222,9 +222,9 @@ html {
  button {
       display: inline-block;
       margin: 10px; /* Adjust margin for spacing between buttons */
-      font-size: 18px;
+      font-size: 64px;
       background-color: #4CAF50;
-      color: #ffffff;
+      color: Black;
       border: none;
       border-radius: 8px;
       cursor: pointer;
