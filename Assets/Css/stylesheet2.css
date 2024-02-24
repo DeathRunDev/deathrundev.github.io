@@ -233,6 +233,8 @@ html {
     .small-buttons {
       margin-top: 20px;
       margin-bottom: 10px;
+      text-align: left;
+      display: flex;
     }
 
 .larger-button {
@@ -248,5 +250,6 @@ html {
       padding: 100px 118px;
       font-size: 16px;
       text-align: left;
+      flex: 1;
     }
 
