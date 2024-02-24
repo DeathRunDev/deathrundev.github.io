@@ -247,4 +247,6 @@ html {
       padding: 100px 118px;
       font-size: 16px;
       text-align: left;
+      max-width: 118px;
+      max-height: 100px;
     }
