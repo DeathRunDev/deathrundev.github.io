@@ -94,6 +94,7 @@ body {
   background-image: url("../images/stud.svg");
   background-repeat: repeat-x;
   background-position: left bottom;
+  text-align: center;
 }
 
 footer {
