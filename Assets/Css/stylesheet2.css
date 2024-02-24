@@ -232,8 +232,7 @@ html {
     .small-buttons {
       margin-top: 20px;
       margin-bottom: 10px;
-      max-width: 175px; /* Set your desired maximum width */
-      word-wrap: break-word;
+      max-width: 100px; /* Set your desired maximum width */
     }
 
 .larger-button {
