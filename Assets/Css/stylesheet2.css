@@ -232,12 +232,11 @@ html {
 
     .small-buttons {
       margin-top: 20px;
-      margin-bottom: 40px;
     }
 
 .larger-button {
       display: inline-block;
-      margin: 10px;
+      margin: 20px;
       padding: 175px 200px; /* Adjust padding for a larger button */
       width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
     }
