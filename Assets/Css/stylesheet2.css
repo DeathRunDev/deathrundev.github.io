@@ -244,6 +244,6 @@ html {
 
     .small-buttons button {
       margin: 0 20px; /* Adjust margin for spacing between small buttons */
-      padding: 0px 0px;
+      padding: 20px 20px;
       font-size: 16px;
     }
