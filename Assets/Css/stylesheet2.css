@@ -224,8 +224,8 @@ html {
       display: inline-block;
       margin: 10px; /* Adjust margin for spacing between buttons */
       font-size: 64px;
-      background-color: #4CAF50;
-      color: Black;
+      background-color: #6c757d;
+      color: White;
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -244,6 +244,7 @@ html {
       margin-bottom: 20px;
       width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
       transition: background-color 0.3s; /* Add transition for smoother hover effect */
+     height: 150px;
     }
 
     .small-buttons button {
