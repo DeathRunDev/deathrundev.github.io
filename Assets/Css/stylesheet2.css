@@ -227,9 +227,10 @@ html {
       background-color: #4CAF50;
       color: Black;
       border: none;
-      border-radius: 8px;
+      border-radius: 0px;
       cursor: pointer;
       transition: background-color 0.3s; /* Add transition for smoother hover effect */
+      
     }
 
     .small-buttons {
