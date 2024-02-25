@@ -227,7 +227,7 @@ html {
       background-color: #4CAF50;
       color: Black;
       border: none;
-      border-radius: 0px;
+      border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.3s; /* Add transition for smoother hover effect */
       
@@ -253,6 +253,7 @@ html {
       font-size: 16px;
       border: solid;
       border-color: rgba(24, 19, 37, 255);
+      border-radius: 0px;
     }
 button:hover {
   background-color: #36743a; /* Darker background color on hover */
