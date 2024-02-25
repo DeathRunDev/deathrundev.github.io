@@ -260,4 +260,5 @@ button:hover {
 }
 .larger-button:hover {
   background-color: rgba(54, 116, 58, 0.8); /* Darker background color on hover with some transparency */
+  color: #ffcc00; /* Change text color on hover */
 }
