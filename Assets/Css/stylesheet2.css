@@ -126,7 +126,7 @@ nav {
   font-size: 20px;
   text-align: center;
   word-spacing: 20px; 
-  text-indent: -20px%; 
+  text-indent: -20px%;  
   
 }
 
@@ -242,7 +242,6 @@ html {
       display: inline-block;
       margin-top: 20px;
       margin-bottom: 20px;
-      padding: 175px 200px; /* Adjust padding for a larger button */
       width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
       transition: background-color 0.3s; /* Add transition for smoother hover effect */
     }
