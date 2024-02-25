@@ -229,6 +229,7 @@ html {
       border: none;
       border-radius: 8px;
       cursor: pointer;
+      transition: background-color 0.3s; /* Add transition for smoother hover effect */
     }
 
     .small-buttons {
@@ -251,3 +252,6 @@ html {
       border: solid;
       border-color: rgba(24, 19, 37, 255);
     }
+button:hover {
+  background-color: #36743a; /* Darker background color on hover */
+}
