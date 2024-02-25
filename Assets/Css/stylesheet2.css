@@ -256,7 +256,7 @@ html {
       border-radius: 0px;
     }
 button:hover {
-  background-color: #36743a; /* Darker background color on hover */
+  background-color: #343a40; /* Darker background color on hover */
 }
 .larger-button:hover {
   background-color: rgba(54, 116, 58, 0.8); /* Darker background color on hover with some transparency */
