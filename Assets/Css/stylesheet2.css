@@ -224,8 +224,8 @@ html {
       display: inline-block;
       margin: 10px; /* Adjust margin for spacing between buttons */
       font-size: 64px;
-      background-color: #6c757d;
-      color: White;
+      background-color: white;
+      color: black;
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -257,6 +257,7 @@ html {
     }
 button:hover {
   background-color: #181325; /* Darker background color on hover */
+  color: white;
 }
 .larger-button:hover {
   background-color: rgba(54, 116, 58, 255); /* Darker background color on hover with some transparency */
