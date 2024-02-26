@@ -264,6 +264,6 @@ button:hover {
   color: #ffcc00; /* Change text color on hover */
 }
 mark { 
-  background-color: rgba(51, 51, 51, 0.2);
+  background-color: rgba(51, 51, 51, 0.5);
   color: black;
 }
