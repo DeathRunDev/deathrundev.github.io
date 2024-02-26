@@ -245,6 +245,7 @@ html {
       width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
       transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
       color: #333333;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     }
 
     .small-buttons button {
