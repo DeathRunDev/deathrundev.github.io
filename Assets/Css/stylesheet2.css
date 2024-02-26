@@ -262,8 +262,14 @@ button:hover {
 .larger-button:hover {
   background-color: rgba(54, 116, 58, 255); /* Darker background color on hover with some transparency */
   color: #ffcc00; /* Change text color on hover */
+
 }
-mark { 
-  background-color: rgba(51, 51, 51, 0.5);
-  color: black;
-}
+.Image-button {
+      display: inline-block;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
+      height: 200px;
+      transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
+      color: #333333;
+    }
