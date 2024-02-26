@@ -249,7 +249,7 @@ html {
 
 .Image-button {
   height: 400px;
-  background-image: url('Assets/Devblog1/Screenshot 2023-08-11 123356.png'); /* Set your image path */
+  background-image: url('./Assets/Devblog1/Screenshot 2023-08-11 123356.png'); /* Set your image path */
   background-size: cover;
   background-position: center;
   border: solid;
