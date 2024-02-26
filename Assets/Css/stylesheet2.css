@@ -219,59 +219,62 @@ html {
         display: none; /* Hide on screens with a width of 800 pixels or less */
       }
     }
-.button-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+ button {
+      margin: 10px; /* Adjust margin for spacing between buttons */
+      font-size: 64px;
+      background-color: #b8c7d7;
+      color: black;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s; /* Add transition for smoother hover effect */
+      
+    }
 
-.button,
-.Image-button,
-.larger-button,
-.small-button {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 10px; /* Optional: Add margin for spacing between buttons */
-}
+    .small-buttons {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
 
 .larger-button {
-  width: calc(175px + 150px + 175px + 150px + 175px + 150px);
-  transition: background-color 0.3s, color 0.3s;
-  color: White;
-  background-color: #181325;
-  border: solid;
-  border-color: rgba(24, 19, 37, 255);
-  border-radius: 0px;
-  text-align: center;
-}
+      display: block;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
+      transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
+      color: White;
+      background-color: #181325;
+      border: solid;
+      border-color: rgba(24, 19, 37, 255);
+      border-radius: 0px;
+      text-align: center;
+    }
 
-.Image-button {
-  height: 400px;
-  background-image: url('./Assets/Devblog1/Screenshot 2023-08-11 123356.png'); /* Set your image path */
-  background-size: cover;
-  background-position: center;
-  border: solid;
-  border-color: rgba(24, 19, 37, 255);
-  border-radius: 0px;
-}
-
-.small-buttons {
-  text-align: center; /* Align smaller buttons in the center */
-}
-
-.small-button {
-  margin: 0 10px; /* Optional: Add margin for spacing between smaller buttons */
-  padding: 10px 20px;
-  font-size: 16px;
-  border: solid;
-  border-color: rgba(24, 19, 37, 255);
-  border-radius: 0px;
-}
-
-.button:hover,
-.larger-button:hover {
-  background-color: #181325;
+    .small-buttons button {
+      display: inline-block;
+      margin: 20 12px; /* Adjust margin for spacing between small buttons */
+      padding: 10px 10px;
+      font-size: 16px;
+      border: solid;
+      border-color: rgba(24, 19, 37, 255);
+      border-radius: 0px;
+    }
+button:hover {
+  background-color: #181325; /* Darker background color on hover */
   color: white;
 }
+.larger-button:hover {
+  color: rgba(217, 225, 231, 255); /* Change text color on hover */
+
+}
+.Image-button {
+      display: block;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
+      height: 400px;
+      border: solid;
+      border-color: rgba(24, 19, 37, 255);
+      border-radius: 0px;  
+      text-align: center;  
+    }
