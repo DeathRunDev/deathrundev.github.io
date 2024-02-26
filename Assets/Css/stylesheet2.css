@@ -95,7 +95,7 @@ body {
   background-image: url("../images/stud.svg");
   background-repeat: repeat-x;
   background-position: left bottom;
-  text-align: center;
+  position: relative;
 }
 
 footer {
@@ -231,7 +231,7 @@ html {
 .Image-button,
 .larger-button,
 .small-button {
-  display: block;
+  display: inline-block;
   width: 100%;
   margin-bottom: 10px; /* Optional: Add margin for spacing between buttons */
 }
@@ -249,9 +249,22 @@ html {
 
 .Image-button {
   height: 400px;
-  background-image: url('path/to/your/image.jpg'); /* Set your image path */
+  background-image: url('./Assets/Devblog1/.jpg'); /* Set your image path */
   background-size: cover;
   background-position: center;
+  border: solid;
+  border-color: rgba(24, 19, 37, 255);
+  border-radius: 0px;
+}
+
+.small-buttons {
+  text-align: center; /* Align smaller buttons in the center */
+}
+
+.small-button {
+  margin: 0 10px; /* Optional: Add margin for spacing between smaller buttons */
+  padding: 10px 20px;
+  font-size: 16px;
   border: solid;
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
