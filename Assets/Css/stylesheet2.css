@@ -96,9 +96,6 @@ body {
   background-repeat: repeat-x;
   background-position: left bottom;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 footer {
