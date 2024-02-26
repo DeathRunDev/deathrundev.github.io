@@ -244,7 +244,7 @@ html {
       margin-bottom: 20px;
       width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
       transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
-      color: #3e8e41; 
+      color: rgba(37, 161, 199, 255);
     }
 
     .small-buttons button {
