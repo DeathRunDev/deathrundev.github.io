@@ -264,3 +264,7 @@ button:hover {
   background-color: rgba(54, 116, 58, 255); /* Darker background color on hover with some transparency */
   color: #ffcc00; /* Change text color on hover */
 }
+mark { 
+  background-color: white;
+  color: black;
+}
