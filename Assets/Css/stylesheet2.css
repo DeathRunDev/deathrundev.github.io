@@ -112,6 +112,9 @@ footer {
   background-color: #181325;
   color: white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 nav {
   position: absolute;
