@@ -95,6 +95,10 @@ body {
   background-image: url("../images/stud.svg");
   background-repeat: repeat-x;
   background-position: left bottom;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
@@ -112,9 +116,6 @@ footer {
   background-color: #181325;
   color: white;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 nav {
   position: absolute;
