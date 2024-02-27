@@ -285,6 +285,8 @@ button:hover {
   display: inline-block;
 }
 .main-content {
-    margin-top: 150px; /* Adjust the value as needed */
     text-align: center;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container */
 }
+
