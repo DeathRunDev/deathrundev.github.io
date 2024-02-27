@@ -254,7 +254,7 @@ button:hover {
 
 .larger-button {
   margin: 10px;
-  display: block;
+  display: inline-block;
   margin-top: 0px;
   margin-bottom: 0px;
   width: calc(175px + 150px + 175px + 150px + 175px + 150px);
