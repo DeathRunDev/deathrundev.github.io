@@ -107,7 +107,7 @@ footer {
 
 .footer {
   position: absolute;
-  bottom: -1050px;
+  bottom: 500;
   width: 100%;
   background-color: #181325;
   color: white;
