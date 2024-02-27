@@ -283,3 +283,6 @@ button:hover {
   border-radius: 0px;
   text-align: center;
 }
+.main-content {
+    margin-top: 50px; /* Adjust the value as needed */
+}
