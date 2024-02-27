@@ -96,6 +96,9 @@ body {
   background-repeat: repeat-x;
   background-position: left bottom;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
@@ -220,62 +223,66 @@ html {
       }
     }
 
- button {
-      display: inline-block;
-      margin: 10px; /* Adjust margin for spacing between buttons */
-      font-size: 64px;
-      background-color: #b8c7d7;
-      color: black;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.3s; /* Add transition for smoother hover effect */
-      
-    }
+button {
+  display: inline-block;
+  margin: 10px;
+  font-size: 64px;
+  background-color: #b8c7d7;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-    .small-buttons {
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
+.small-buttons {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
-.larger-button {
-      display: block;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
-      transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
-      color: White;
-      background-color: #181325;
-      border: solid;
-      border-color: rgba(24, 19, 37, 255);
-      border-radius: 0px;
-      text-align: center;
-    }
+.small-buttons button {
+  margin: 20 15px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: solid;
+  border-color: rgba(24, 19, 37, 255);
+  border-radius: 0px;
+}
 
-    .small-buttons button {
-      margin: 20 15px; /* Adjust margin for spacing between small buttons */
-      padding: 10px 10px;
-      font-size: 16px;
-      border: solid;
-      border-color: rgba(24, 19, 37, 255);
-      border-radius: 0px;
-    }
 button:hover {
-  background-color: #181325; /* Darker background color on hover */
+  background-color: #181325;
   color: white;
 }
-.larger-button:hover {
-  color: rgba(217, 225, 231, 255); /* Change text color on hover */
 
+.larger-button {
+  margin: 10px;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: calc(175px + 150px + 175px + 150px + 175px + 150px);
+  transition: background-color 0.3s, color 0.3s;
+  color: White;
+  background-color: #181325;
+  border: solid;
+  border-color: rgba(24, 19, 37, 255);
+  border-radius: 0px;
+  text-align: center;
+  cursor: pointer;
 }
+
+.larger-button:hover {
+  color: rgba(217, 225, 231, 255);
+  background-color: #181325;
+}
+
 .Image-button {
-      display: block;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      width: calc(175px + 150px + 175px + 150px + 175px + 150px); /* Adjust width for a larger button */
-      height: 400px;
-      border: solid;
-      border-color: rgba(24, 19, 37, 255);
-      border-radius: 0px;  
-      text-align: center;  
-    }
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: calc(175px + 150px + 175px + 150px + 175px + 150px);
+  height: 400px;
+  border: solid;
+  border-color: rgba(24, 19, 37, 255);
+  border-radius: 0px;
+  text-align: center;
+}
