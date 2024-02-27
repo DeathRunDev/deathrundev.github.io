@@ -112,7 +112,6 @@ footer {
 .footer {
    position: absolute;
    left: 0;
-   bottom: -1080px; /* Change the bottom value to 0 */
    width: 100%;
    background-color: #181325;
    color: white;
