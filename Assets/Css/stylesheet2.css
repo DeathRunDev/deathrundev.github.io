@@ -127,6 +127,7 @@ footer {
   text-align: center;
   padding: 20px 0; /* Adjust padding as needed */
   z-index: 1; /* Ensure the footer is below other elements */
+  padding-bottom: 100px; /* Add some padding at the bottom to prevent overlap */
 }
 nav {
   position: absolute;
