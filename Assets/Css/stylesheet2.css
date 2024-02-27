@@ -274,7 +274,6 @@ button:hover {
 }
 
 .Image-button {
-  display: block;
   margin-top: 0px;
   margin-bottom: 0px;
   width: calc(175px + 150px + 175px + 150px + 175px + 150px);
@@ -283,6 +282,7 @@ button:hover {
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
   text-align: center;
+  display: inline-block;
 }
 .main-content {
     margin-top: 150px; /* Adjust the value as needed */
