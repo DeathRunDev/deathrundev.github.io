@@ -88,11 +88,6 @@ header {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
-  margin: 0; /* Remove default margin */
   background-color: white;
   font-family: "Roboto", "Courier New", monospace;
   font-weight: normal;
@@ -101,11 +96,18 @@ body {
   background-repeat: repeat-x;
   background-position: left bottom;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+  margin: 0; /* Remove default margin */
 }
+
 .main-content {
- font-family: "Roboto", "Courier New", monospace;
-  font-weight: normal;
-  font-style: normal;
+  flex-grow: 1; /* Allow main content to grow and take remaining space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
