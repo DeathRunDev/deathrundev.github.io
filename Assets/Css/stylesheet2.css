@@ -112,7 +112,7 @@ footer {
 .footer {
    position: absolute;
    left: 0;
-   bottom: 0; /* Change the bottom value to 0 */
+   bottom: 500px; /* Change the bottom value to 0 */
    width: 100%;
    background-color: #181325;
    color: white;
