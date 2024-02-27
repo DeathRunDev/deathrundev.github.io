@@ -95,7 +95,6 @@ body {
   background-image: url("../images/stud.svg");
   background-repeat: repeat-x;
   background-position: left bottom;
-  background-attachment: absolute;
   text-align: center;
   display: flex;
   flex-direction: column;
