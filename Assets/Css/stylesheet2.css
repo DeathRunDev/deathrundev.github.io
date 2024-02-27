@@ -286,4 +286,5 @@ button:hover {
 }
 .main-content {
     margin-top: 150px; /* Adjust the value as needed */
+    text-align: center;
 }
