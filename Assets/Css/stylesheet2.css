@@ -119,14 +119,15 @@ footer {
 }
 
 .footer {
-   left: 0;
-   width: 100%;
-   background-color: #181325;
-   color: white;
-   text-align: center;
-   margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #181325;
+  color: white;
+  text-align: center;
+  padding: 20px 0; /* Adjust padding as needed */
+  z-index: 1; /* Ensure the footer is below other elements */
 }
-
 nav {
   position: absolute;
   background-color: rgba(24, 19, 37, 255);
