@@ -95,17 +95,6 @@ body {
   background-image: url("../images/stud.svg");
   background-repeat: repeat-x;
   background-position: left bottom;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main-content {
-  flex-grow: 1; /* Allow main content to grow and take remaining space */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 footer {
