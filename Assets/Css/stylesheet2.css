@@ -304,16 +304,17 @@ button:hover {
 }
 
 .tall-button {
-    height: 200px;
-    width: calc(33.33% - 10px); /* Adjust as needed, considering margin */
-    margin: 10px 5px; /* Adjust the margin for top/bottom and left/right */
-    font-size: 20px;
-    background-color: #b8c7d7;
-    color: black;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+height: 200px;
+background-color: #b8c7d7;
+color: black;
+cursor: pointer;
+transition: background-color 0.3s;
+ margin: 25 20px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: solid;
+  border-color: rgba(24, 19, 37, 255);
+  border-radius: 0px;
 }
 
 .tall-button:hover {
