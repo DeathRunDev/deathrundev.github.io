@@ -291,7 +291,25 @@ button:hover {
     max-width: 1200px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the container */
 }
-.neck-content {
-     text-align: center;
-     margin: 0 auto; /* Center the container */
+.tall-buttons {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.tall-button {
+    height: 200px; /* Adjust the height as needed */
+    width: calc(33.33% - 20px); /* Adjust as needed, considering margin */
+    margin: 10px;
+    font-size: 20px; /* Adjust the font size as needed */
+    background-color: #b8c7d7;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tall-button:hover {
+    background-color: #181325;
+    color: white;
 }
