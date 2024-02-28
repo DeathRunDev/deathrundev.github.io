@@ -286,6 +286,7 @@ button:hover {
 }
 .main-content {
     margin-top: 1500px; /* Adjust the value as needed */
+    margin-bottom: 20px;
     text-align: center;
     max-width: 1200px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the container */
