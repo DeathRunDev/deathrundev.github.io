@@ -293,7 +293,6 @@ button:hover {
 }
 .tall-buttons {
     display: flex;
-    justify-content: space-between; /* Adjust as needed */
 }
 
 .colored-box {
