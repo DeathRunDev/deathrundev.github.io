@@ -248,6 +248,7 @@ button {
 }
 .wide-buttons button {
   margin: 25px 0px;
+  width: 75px;
   padding: 10px 10px;
   font-size: 16px;
   border: solid;
