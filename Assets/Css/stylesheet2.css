@@ -248,12 +248,9 @@ button {
 }
 .wide-buttons button {
   margin: 0px;
-  width: 300px;
+  width: 250px;
   padding: 10px 10px;
   font-size: 16px;
-  border: solid;
-  border: 2px solid rgba(24, 19, 37, 255); /* Adjust the border width as needed */
-  border-radius: 0px;
 }
 
 .wide-buttons {
