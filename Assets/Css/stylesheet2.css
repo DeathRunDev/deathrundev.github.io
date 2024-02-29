@@ -246,7 +246,7 @@ button {
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
 }
-.tall-buttons button {
+.wide-buttons button {
   margin: 1 20px;
   padding: 10px 10px;
   font-size: 16px;
@@ -255,7 +255,7 @@ button {
   border-radius: 0px;
 }
 
-.tall-buttons {
+.wide-buttons {
   margin-top: 5px;
   margin-bottom: 5px;
 }
