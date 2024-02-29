@@ -249,7 +249,7 @@ button {
 .wide-buttons button {
   margin: 0px;
   width: 250px;
-  padding: 10px 10px;
+  padding: 0px 0px;
   font-size: 16px;
 }
 
