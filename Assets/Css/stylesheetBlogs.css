@@ -97,8 +97,6 @@ body {
   background-position: left bottom;
   text-align: center;
   align-items: center;
-  display: flex;
-  flex-direction: column;
 
 }
 
