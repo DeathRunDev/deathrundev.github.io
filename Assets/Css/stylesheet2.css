@@ -267,38 +267,12 @@ button {
   color: rgba(217, 225, 231, 255);
 }
 
-.taller-buttons {
-  margin-top: 0px; /* Adjust margin as needed */
-  margin-bottom: 0px; /* Adjust margin as needed */
-}
-
-.taller-buttons button {
-  width: 321px;
-  height: 400px;
-  margin: 0 -4px;
-  padding: 10px;
-  font-size: 16px;
-  border-style: solid;
-  border-color: rgba(24, 19, 37, 255);
-  border-width: 0 2px 2px 2px; /* Adjust the border-width for left, right, and bottom */
-  border-radius: 0px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  background-color: #181325;
-}
-
-.taller-buttons button:hover {
-  color: rgba(217, 225, 231, 255);
-  background-color: #181325;
-}
-
 button:hover {
   background-color: #181325;
   color: white;
 }
 
 .larger-button {
-  margin: 10px;
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 0px;
