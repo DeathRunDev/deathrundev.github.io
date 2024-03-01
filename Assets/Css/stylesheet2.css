@@ -261,7 +261,7 @@ button {
   padding: 0;
 }
 
-.taller-button {
+.taller-buttons button {
   margin-top: 0px;
   margin-bottom: 0px;
   width: 320px;
@@ -270,6 +270,11 @@ button {
   border-color: rgba(24, 19, 37, 255);
   border-width: 0 2px 2px 2px; /* Adjust the border-width for left, right, and bottom */
   border-radius: 0px;
+}
+
+.tall-button {
+    margin: 0;
+    padding: 0;
 }
 
 button:hover {
