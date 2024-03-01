@@ -246,26 +246,6 @@ button {
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
 }
-.wide-buttons button {
-  margin: 0 -4px;
-  width: 321px;
-  padding: 10px 10px;
-  font-size: 16px;
-  border: solid;
-  border-color: rgba(24, 19, 37, 255);
-  border-radius: 0px;
-  background-color: #181325;
-  color: white;
-}
-
-.wide-buttons {
-  margin: 0;
-  padding: 0;
-}
-
-.wide-buttons:hover {
-  color: rgba(217, 225, 231, 255);
-}
 
 button:hover {
   background-color: #181325;
