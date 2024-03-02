@@ -194,6 +194,17 @@ html {
             max-width: 1100px; /* Adjust the maximum width as needed */
             margin: 0 auto; /* Center the container */
         }
+
+button {
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
+  color: #181325;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .small-buttons {
     display: flex;
     justify-content: center;
