@@ -224,3 +224,18 @@ button {
     display: inline-block;
     text-align: center; /* Center the content within each button container */
 }
+.link-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.link-images a {
+    text-decoration: none;
+}
+
+.link-images img {
+    width: 50px; /* Adjust the width of the images as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 5px; /* Adjust the margin between images as needed */
+}
