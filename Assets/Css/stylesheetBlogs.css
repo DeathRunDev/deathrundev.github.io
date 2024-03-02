@@ -198,36 +198,29 @@ html {
 button {
   display: inline-block;
   margin: 10px;
-  font-size: 16px;
-  color: #181325;
+  font-size: 32px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .small-buttons {
-    display: flex;
-    justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.small-buttons button {
+  margin: 25 20px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: solid;
+  border-color: rgba(24, 19, 37, 255);
+  border-radius: 0px;
 }
 
 .button-container {
     margin: 10px;
     display: inline-block;
     text-align: center; /* Center the content within each button container */
-}
-
-.small-buttons button {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.small-buttons button img {
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-}
-
-.small-buttons p {
-    margin-top: 5px;
-    font-size: 16px; /* Adjust the font size as needed */
 }
