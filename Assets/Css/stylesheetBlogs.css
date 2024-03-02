@@ -192,7 +192,7 @@ html {
 
          .main-content {
             text-align: center;
-            max-width: 800px; /* Adjust the maximum width as needed */
+            max-width: 1000px; /* Adjust the maximum width as needed */
             margin: 0 auto; /* Center the container */
         }
 .small-buttons {
