@@ -206,6 +206,7 @@ html {
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin: 10px; /* Adjust margin as needed */
         }
 
         .small-buttons p {
