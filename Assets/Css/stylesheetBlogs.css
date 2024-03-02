@@ -189,7 +189,8 @@ a:active {
 html {
   scroll-behavior: smooth;
 }
- .main-content {
+
+         .main-content {
             text-align: center;
             max-width: 800px; /* Adjust the maximum width as needed */
             margin: 0 auto; /* Center the container */
@@ -205,4 +206,10 @@ html {
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+
+        .small-buttons p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: rgba(24, 19, 37, 255);
         }
