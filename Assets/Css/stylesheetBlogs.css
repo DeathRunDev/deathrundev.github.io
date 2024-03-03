@@ -203,11 +203,13 @@ button {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
+  
 }
 
 .small-buttons {
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: 0px;
 }
 
 .small-buttons button {
@@ -218,6 +220,7 @@ button {
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
   max-width: 374px; /* Adjust the width of the images as needed */
+  text-align: left; /* Align text to the left within the buttons */
 }
 
 .button-container {
