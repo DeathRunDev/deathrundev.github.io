@@ -219,7 +219,7 @@ button {
   font-size: 16px;
   border: none;
   border-radius: 0px;
-  width: 300px; /* Adjust the width of the images as needed */
+  width: 350px; /* Adjust the width of the images as needed */
   text-align: left; /* Align text to the left within the buttons */
 }
 
@@ -248,7 +248,7 @@ button {
 }
 
 .small-buttons button.button1 {
-    margin-left: -60; /* Adjust the left margin for the first button */
+    margin-left: -100; /* Adjust the left margin for the first button */
 }
 
 .small-buttons button.button2 {
@@ -256,5 +256,5 @@ button {
 }
 
 .small-buttons button.button3 {
-    margin-left: 40px; /* Adjust the left margin for the third button */
+    margin-left: 60px; /* Adjust the left margin for the third button */
 }
