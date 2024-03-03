@@ -209,12 +209,12 @@ button {
 .small-buttons {
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: -87px;
+  margin-left: -90px;
   text-align: left;
 }
 
 .small-buttons button {
-  margin: 0px -40px;
+  margin: 20px 60x;
   padding: 10px 10px;
   font-size: 16px;
   border: none;
