@@ -248,7 +248,7 @@ button {
 }
 
 .small-buttons button.button1 {
-    margin-left: 0px; /* Adjust the left margin for the first button */
+    margin-left: -50px; /* Adjust the left margin for the first button */
     margin-right: 0px;
 }
 
