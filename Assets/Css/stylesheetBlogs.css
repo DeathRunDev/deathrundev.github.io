@@ -219,7 +219,7 @@ button {
   border: solid;
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
-  max-width: 374px; /* Adjust the width of the images as needed */
+  width: 374px; /* Adjust the width of the images as needed */
   text-align: left; /* Align text to the left within the buttons */
 }
 
