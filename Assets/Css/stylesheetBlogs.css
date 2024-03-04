@@ -247,11 +247,11 @@ button {
 }
 
 .development-paragraph {
-    margin-left: -51px; /* Adjust this value as needed to move the paragraph to the left */
+    margin-left: -50px; /* Adjust this value as needed to move the paragraph to the left */
 }
 
 .small-buttons button.button1 {
-    margin-left: -50px; /* Adjust the left margin for the first button */
+    margin-left: -51px; /* Adjust the left margin for the first button */
     margin-right: 0px;
 }
 
