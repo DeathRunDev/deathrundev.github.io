@@ -220,7 +220,7 @@ button {
   font-size: 16px;
   border: none;
   border-radius: 0px;
-  width: 350px; /* Adjust the width of the images as needed */
+  width: 360px; /* Adjust the width of the images as needed */
   text-align: left; /* Align text to the left within the buttons */
 }
 
@@ -254,7 +254,7 @@ button {
 }
 
 .small-buttons button.button2 {
-    margin-left: 50px; /* Adjust the left margin for the second button */
+    margin-left: 20px; /* Adjust the left margin for the second button */
     margin-right: 0px;
 }
 
