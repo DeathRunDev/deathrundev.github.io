@@ -254,11 +254,11 @@ button {
 }
 
 .small-buttons button.button2 {
-    margin-left: 20px; /* Adjust the left margin for the second button */
+    margin-left: 30px; /* Adjust the left margin for the second button */
     margin-right: 0px;
 }
 
 .small-buttons button.button3 {
-    margin-left: 20px; /* Adjust the left margin for the third button */
+    margin-left: 0px; /* Adjust the left margin for the third button */
     margin-right: 0px;
 }
