@@ -259,6 +259,6 @@ button {
 }
 
 .small-buttons button.button3 {
-    margin-left: -10px; /* Adjust the left margin for the third button */
+    margin-left: -20px; /* Adjust the left margin for the third button */
     margin-right: 0px;
 }
