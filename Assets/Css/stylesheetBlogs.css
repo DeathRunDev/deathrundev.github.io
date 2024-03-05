@@ -213,8 +213,8 @@ button {
 }
 
 .small-buttons button {
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 0px;
   padding: 10px 10px;
   font-size: 16px;
   border: solid;
