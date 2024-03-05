@@ -217,8 +217,12 @@ button {
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
   width: 375px; /* width of button */
-  height: 204px; /* height of button */
 }
+
+.small-buttons button img {
+        width: 375px;
+        height: auto; /* Maintain the aspect ratio */
+    }
 
 button:hover {
   background-color: #181325;
