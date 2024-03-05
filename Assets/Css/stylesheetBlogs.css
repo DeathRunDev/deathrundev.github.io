@@ -209,6 +209,8 @@ button {
 .small-buttons button {
   margin-left: 30px;
   margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding: 10px 10px;
   font-size: 16px;
   border: solid;
