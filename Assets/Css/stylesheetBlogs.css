@@ -189,12 +189,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.main-content {
-    text-align: center;
-    max-width: 1200px; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center the container */
-}
-
 button {
   display: inline-block;
   margin: 10px;
@@ -263,7 +257,7 @@ button:hover {
     margin-top: 100px; /* Adjust the value as needed */
     margin-bottom: 20px;
     text-align: center;
-    max-width: 1200px; /* Adjust the maximum width as needed */
+    max-width: 1400px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the container */
 }
 .darken-text-on-hover:hover {
