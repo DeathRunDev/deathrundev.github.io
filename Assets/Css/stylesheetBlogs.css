@@ -195,9 +195,10 @@ button {
   font-size: 32px;
   background-color: #b8c7d7;
   color: black;
-  border: none;
+  border: solid;
   border-radius: 0px;
   cursor: pointer;
+  padding: 10px 10px;
 }
 
 .small-buttons {
