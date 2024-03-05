@@ -264,7 +264,7 @@ button:hover {
     color: rgba(217, 225, 231, 255);
 }
 .link-images {
-    display: flex;
+    display: inline-block;
     margin-top: 20px; /* Adjust as needed */
 }
 
