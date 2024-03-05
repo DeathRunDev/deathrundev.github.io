@@ -213,7 +213,7 @@ button {
 }
 
 .small-buttons button {
-  margin: 25 20px;
+  margin: 25px 40px;
   padding: 10px 10px;
   font-size: 16px;
   border: solid;
@@ -286,5 +286,5 @@ button:hover {
 }
 
 .development-paragraph {
-    margin-left: -50px; /* Adjust this value as needed to move the paragraph to the left */
+    margin-left: 50px; /* Adjust this value as needed to move the paragraph to the left */
 }
