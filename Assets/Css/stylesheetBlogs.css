@@ -193,10 +193,9 @@ button {
   display: inline-block;
   margin: 10px;
   font-size: 32px;
-  background-color: #b8c7d7;
   color: black;
   border: none;
-  border-radius: 8px;
+  border-radius: 0px;
   cursor: pointer;
 }
 
@@ -208,8 +207,8 @@ button {
 .small-buttons button {
   margin-left: 30px;
   margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 0px 0px;
   font-size: 16px;
   width: 375px; /* width of button */
