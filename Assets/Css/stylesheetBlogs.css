@@ -214,7 +214,8 @@ button {
   border: solid;
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
-  width: 375px; /* Adjust the width of the images as needed */
+  width: 375px; /* width of button */
+  height: 204px; /* height of button */
 }
 
 button:hover {
