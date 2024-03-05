@@ -195,15 +195,14 @@ button {
   font-size: 32px;
   background-color: #b8c7d7;
   color: black;
-  border: solid;
-  border-radius: 0px;
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
-  padding: 10px 10px;
 }
 
 .small-buttons {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .small-buttons button {
