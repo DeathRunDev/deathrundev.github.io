@@ -219,6 +219,7 @@ button {
   border: solid;
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
+  width: 375px; /* Adjust the width of the images as needed */
 }
 
 button:hover {
@@ -278,7 +279,7 @@ button:hover {
 }
 
 .link-images img {
-    width: 374px; /* Adjust the width of the images as needed */
+    width: 375px; /* Adjust the width of the images as needed */
     height: auto; /* Maintain the aspect ratio */
     margin: 20px 20px 0 20px; /* Top, Right, Bottom, Left */
     vertical-align: middle; /* Align the images vertically in the middle */
