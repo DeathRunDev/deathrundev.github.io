@@ -263,7 +263,7 @@ button:hover {
     color: rgba(217, 225, 231, 255);
 }
 .custom-button {
-      max-height: 300px;
+      max-height: 302px;
       max-width: 256px;
       overflow: hidden;
       transition: max-height 0.3s ease-out;
