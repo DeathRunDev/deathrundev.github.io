@@ -262,3 +262,13 @@ button:hover {
 .darken-text-on-hover:hover {
     color: rgba(217, 225, 231, 255);
 }
+.custom-button {
+      max-height: 280px;
+      max-width: 256px;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+
+    .custom-button:hover {
+      max-height: 500px;
+    }
