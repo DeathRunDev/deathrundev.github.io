@@ -293,3 +293,7 @@ button:hover {
     #button2:hover::before {
         content: 'Welcome!';
     }
+    .button-container {
+        display: inline-block;
+        gap: 20px;
+    }
