@@ -189,38 +189,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.pagination {
-  display: inline-block;
-}
-
-.pagination a {
-  color: white;
-  float: left;
-  padding: 8px 16px;
-  text-decoration: none;
-  transition: background-color .3s;
-  border: 1px solid #ddd;
-  font-size: 22px;
-}
-
-.pagination a.active {
-  background-color: #4CAF50;
-  color: white;
-  border: 1px solid #4CAF50;
-}
-
-.pagination a:hover:not(.active) {background-color: #ddd;}
-
-    .hidden-on-small {
-      display: block; /* Default display for larger screens */
-    }
-
-    @media only screen and (max-width: 800px) {
-      .hidden-on-small {
-        display: none; /* Hide on screens with a width of 800 pixels or less */
-      }
-    }
-
 button {
   display: inline-block;
   margin: 10px;
@@ -228,7 +196,7 @@ button {
   background-color: #b8c7d7;
   color: black;
   border: none;
-  border-radius: 8px;
+  border-radius: 0px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
