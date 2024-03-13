@@ -268,59 +268,49 @@ button:hover {
     }
 .support-section {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.reports-section {
     margin-bottom: 20px;
 }
 
-.report-buttons {
-    flex: 1; /* Take up one-third of the available space */
-}
-
-.contact-info {
-    flex: 2; /* Take up two-thirds of the available space */
-    margin-left: 20px; /* Add some spacing between the sections */
-}
-
-.contact-info h3 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.contact-info p {
-    font-size: 16px;
-    line-height: 1.5;
-    border: 2px solid #181325;
-    padding: 10px;
-    max-width: 400px; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center the paragraph horizontally */
-}
-
-.staff-applications {
-    margin-top: 20px; /* Add space between the Contact Information and Staff Applications */
-}
-
-.staff-applications .support-button {
-    width: 200px;
-    margin-top: 10px; /* Add spacing between buttons */
-}
-.reports-section {
-    text-align: center;
-}
-
 .reports-section h3 {
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
 .report-buttons {
-    display: inline-block;
-    border: 2px solid #ccc; /* Add a border around the button container */
-    padding: 10px; /* Add padding to space the buttons from the border */
+    border: 2px solid #ccc;
+    padding: 10px;
 }
 
 .report-buttons .support-button {
     display: block;
     width: 100%;
     margin-top: 5px;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    border: 2px solid #ccc;
+    padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.staff-applications .support-button {
+    width: 200px;
+    margin-top: 10px;
 }
