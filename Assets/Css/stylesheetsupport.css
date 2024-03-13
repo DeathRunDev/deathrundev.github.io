@@ -298,8 +298,11 @@ button:hover {
     line-height: 1.5;
 }
 
-.support-button {
-    display: block; /* Ensure buttons stack vertically */
+.staff-applications {
+    margin-top: 20px; /* Add space between the Contact Information and Staff Applications */
+}
+
+.staff-applications .support-button {
     width: 100%; /* Take up full width */
     margin-top: 10px; /* Add spacing between buttons */
 }
