@@ -52,16 +52,10 @@ h2 {
 }
 
 h3 {
-    font-family: "Roboto", "Courier New", monospace;
+    font-family: "Roboto-Bold", "Courier New", monospace;
     font-weight:normal;
     font-style:normal;
-    font-size: 25px;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: inset;
-  border-left-style: none;
-  border-color: rgb(46, 139, 87);
-  border-width: 0px 0px 2px 0px;
+    font-size: 50px;
 } 
 p {
     font-family: "Roboto", "Courier New", monospace;
