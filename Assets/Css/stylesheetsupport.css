@@ -284,13 +284,13 @@ button:hover {
 }
 
 .reports-section h3 {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
 .report-buttons {
-    border: 2px solid #ccc;
-    padding: 10px;
+    border: 2px solid #181325;
+    padding: 0;
 }
 
 .report-buttons .support-button {
@@ -300,7 +300,7 @@ button:hover {
 }
 
 .contact-info h3 {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
