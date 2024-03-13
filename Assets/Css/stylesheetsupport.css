@@ -292,6 +292,8 @@ button:hover {
     line-height: 1.5;
     border: 2px solid #181325;
     padding: 10px;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the paragraph horizontally */
 }
 
 .staff-applications {
