@@ -268,12 +268,15 @@ button:hover {
     }
 .support-section {
     display: flex;
+    justify-content: center; /* Center the content horizontally */
+    padding: 20px; /* Add padding to bring the sections closer */
 }
 
 .left-section,
 .right-section {
     flex: 1;
     padding: 0 10px;
+    max-width: 50%; /* Limit the maximum width of each section */
 }
 
 .reports-section {
@@ -311,6 +314,6 @@ button:hover {
 }
 
 .staff-applications .support-button {
-    width: 200px;
+    width: 400px;
     margin-top: 10px;
 }
