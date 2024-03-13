@@ -283,7 +283,7 @@ button:hover {
 }
 
 .contact-info h3 {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
@@ -303,4 +303,24 @@ button:hover {
 .staff-applications .support-button {
     width: 200px;
     margin-top: 10px; /* Add spacing between buttons */
+}
+.reports-section {
+    text-align: center;
+}
+
+.reports-section h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.report-buttons {
+    display: inline-block;
+    border: 2px solid #ccc; /* Add a border around the button container */
+    padding: 10px; /* Add padding to space the buttons from the border */
+}
+
+.report-buttons .support-button {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
 }
