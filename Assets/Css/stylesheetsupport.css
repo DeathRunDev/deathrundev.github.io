@@ -272,34 +272,34 @@ button:hover {
     .custom-button:hover {
       max-height: 500px;
     }
-.support-buttons {
+.support-section {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-bottom: 20px;
+}
+
+.report-buttons {
+    flex: 1; /* Take up one-third of the available space */
+}
+
+.contact-info {
+    flex: 2; /* Take up two-thirds of the available space */
+    margin-left: 20px; /* Add some spacing between the sections */
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .support-button {
-    background-color: #b8c7d7; /* Match background color with other buttons */
-    color: black; /* Match text color with other buttons */
-    border: none;
-    border-radius: 0px; /* Remove border-radius to match other buttons */
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    display: flex;
-    flex-direction: column; /* Change the direction to column */
-    align-items: center; /* Center items horizontally */
-    margin-bottom: 20px;
-}
-
-.support-button:hover {
-    background-color: #181325; /* Match hover background color with other buttons */
-    color: white; /* Change text color on hover to match other buttons */
-}
-
-/* Add styles for the new paragraph */
-.new-paragraph {
-    margin-top: 20px; /* Adjust margin as needed */
-    font-size: 16px;
+    display: block; /* Ensure buttons stack vertically */
+    width: 100%; /* Take up full width */
+    margin-top: 10px; /* Add spacing between buttons */
 }
