@@ -272,21 +272,30 @@ button:hover {
     .custom-button:hover {
       max-height: 500px;
     }
- .support-buttons {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-        .support-button {
-            background-color: #8B0000;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .support-button:hover {
-            background-color: #6B0000;
-        }
+.support-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.support-button {
+    background-color: #b8c7d7; /* Match background color with other buttons */
+    color: black; /* Match text color with other buttons */
+    border: none;
+    border-radius: 0px; /* Remove border-radius to match other buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.support-button:hover {
+    background-color: #181325; /* Match hover background color with other buttons */
+    color: white; /* Change text color on hover to match other buttons */
+}
+
+/* Add styles for the new paragraph */
+.new-paragraph {
+    margin-top: 20px; /* Adjust margin as needed */
+    font-size: 16px;
+}
