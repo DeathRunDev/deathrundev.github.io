@@ -299,6 +299,6 @@ button:hover {
 }
 
 .staff-applications .support-button {
-    width: 100%; /* Take up full width */
+    width: 200px;
     margin-top: 10px; /* Add spacing between buttons */
 }
