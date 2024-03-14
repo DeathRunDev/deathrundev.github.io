@@ -289,14 +289,15 @@ button:hover {
 }
 
 .report-buttons {
-    border: 2px solid #181325;
-    padding: 0;
+    padding: 10px;
 }
 
 .report-buttons .support-button {
     display: block;
     width: 100%;
     margin-top: 5px;
+    border: 2px solid #181325;
+    border-radius: 0px;
 }
 
 .contact-info h3 {
