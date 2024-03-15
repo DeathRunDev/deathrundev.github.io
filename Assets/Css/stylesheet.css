@@ -253,7 +253,7 @@ html {
 }
 .profile-button {
     display: inline-flex;
-    align-items: center;
+    align-items: left;
 }
 
 .profile-button img {
