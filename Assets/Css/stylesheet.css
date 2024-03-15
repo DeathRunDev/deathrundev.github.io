@@ -265,4 +265,5 @@ html {
 
 .button-text {
     margin-left: 10px; /* Adjust as needed */
+    text-align: left;
 }
