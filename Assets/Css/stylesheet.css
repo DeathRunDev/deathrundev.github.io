@@ -274,3 +274,9 @@ html {
 .button-text {
     margin-right: 10px; /* Adjust as needed */
 }
+.BlogText {
+    text-align: left; 
+    max-width: 800px; 
+    font-size: 20px; 
+    margin-left: 200px;
+}
