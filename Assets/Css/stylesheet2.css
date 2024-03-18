@@ -315,7 +315,16 @@ button:hover {
             .footer ul {
                 text-indent: 0;
             }
+            .Image-button {
+                  width: 150px;
+                  height: 200px;
+            }
+            .larger-button {
+               width: 150px;
+            }
+        
         }
+
     </style>
 </head>
 
