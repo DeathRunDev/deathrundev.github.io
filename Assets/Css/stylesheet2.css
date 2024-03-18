@@ -316,13 +316,15 @@ button:hover {
                 text-indent: 0;
             }
             .Image-button {
-                  width: 150px;
+                  width: 100px;
                   height: 200px;
             }
             .larger-button {
-               width: 150px;
+               width: 200px;
             }
-        
+           button {
+            font-size: 16px;
+           }
         }
 
     </style>
