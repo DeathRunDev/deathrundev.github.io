@@ -293,5 +293,28 @@ button:hover {
 .darken-text-on-hover:hover {
     color: rgba(217, 225, 231, 255);
 }
+@media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
 
+            nav i {
+                margin-top: 10px;
+            }
+
+            .main-content {
+                padding: 10px;
+            }
+
+            .footer {
+                padding: 10px;
+            }
+
+            .footer ul {
+                text-indent: 0;
+            }
+        }
+    </style>
+</head>
 
