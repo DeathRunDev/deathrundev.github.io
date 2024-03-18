@@ -322,11 +322,9 @@ button:hover {
            button {
             font-size: 16px;
            }
-           .small-buttons {
-             font-size: 16px;
-           }
+         .smaller-font {
+            font-size: 16px;
+            }
         }
 
-    </style>
-</head>
 
