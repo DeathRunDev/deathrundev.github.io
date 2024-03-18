@@ -293,6 +293,9 @@ button:hover {
 .darken-text-on-hover:hover {
     color: rgba(217, 225, 231, 255);
 }
+.Larger-font {
+    font-size: 40px;
+}
 @media only screen and (max-width: 600px) {
             nav {
                 flex-direction: column;
@@ -322,7 +325,7 @@ button:hover {
            button {
             font-size: 16px;
            }
-         .smaller-font {
+           .Larger-font {
             font-size: 16px;
             }
         }
