@@ -309,6 +309,7 @@ button:hover {
 
             .footer {
                 padding: 10px;
+                position: absolute;
             }
 
             .footer ul {
