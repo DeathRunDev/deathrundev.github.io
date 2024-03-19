@@ -245,6 +245,7 @@ button {
   border: solid;
   border-color: rgba(24, 19, 37, 255);
   border-radius: 0px;
+  width: 200px;
 }
 
 button:hover {
