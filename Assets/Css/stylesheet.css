@@ -158,7 +158,7 @@ li a {
 }
 
 li a:hover {
-  color: #3e8e41;
+  color: rgba(37, 161, 199, 255);
 }
 
 a:link {
