@@ -296,6 +296,11 @@ button:hover {
 .Larger-font {
     font-size: 40px;
 }
+.ReadMore {
+    text-decoration-line: underline; 
+    text-decoration-style: double; 
+    margin-top: 50px;
+}
 @media only screen and (max-width: 600px) {
             nav {
                 flex-direction: column;
@@ -336,6 +341,9 @@ button:hover {
             .small-buttons {
               margin: 0 0;
               padding: 0px 0px;
+            }
+            .ReadMore {
+            margin-top: 0px;
             }
         }
 
