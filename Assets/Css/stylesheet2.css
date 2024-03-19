@@ -334,6 +334,7 @@ button:hover {
                height: auto;
                margin-left: 0;
                margin-right: 0;
+               margin-top: 20px;
             }
            button {
             font-size: 16px;
