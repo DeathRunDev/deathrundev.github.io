@@ -358,7 +358,7 @@ button:hover {
             font-size: 16px;
             font-weight: bold;
             }
-            .Navbar-list {
+            .Navbar-list li {
             display: block;
             }
         }
