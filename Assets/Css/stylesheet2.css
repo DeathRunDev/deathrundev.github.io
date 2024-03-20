@@ -309,6 +309,9 @@ button:hover {
   display: inline-block;
   list-style-type: none;
 }
+#navbar {
+  margin-left: 220px;
+}
 @media only screen and (max-width: 600px) {
             nav {
                 flex-direction: column;
@@ -359,8 +362,8 @@ button:hover {
             font-size: 16px;
             font-weight: bold;
             }
-            .Navbar-list li {
-            display: block;
+            #navbar {
+            margin-left: 0;
             }
         }
 
