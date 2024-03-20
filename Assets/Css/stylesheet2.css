@@ -306,8 +306,7 @@ button:hover {
     font-size: 32px;
 }
 .Navbar-list {
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
 }
 @media only screen and (max-width: 600px) {
             nav {
@@ -360,7 +359,7 @@ button:hover {
             font-weight: bold;
             }
             .Navbar-list {
-            flex-direction: column;
+            display: block;
             }
         }
 
