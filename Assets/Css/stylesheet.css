@@ -352,4 +352,7 @@ html {
             #navbar {
             margin-left: 0;
             }
+            aside {
+            margin-left: 0px;
+            }
         }
