@@ -264,6 +264,7 @@ button {
 .link-images {
     display: inline-block;
     margin-top: 20px; /* Adjust as needed */
+    padding: 0px 0px;
 }
 
 .link-images a {
