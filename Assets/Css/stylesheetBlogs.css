@@ -162,7 +162,7 @@ li a {
 }
 
 li a:hover {
-  color: rgba(37, 161, 199, 255);
+  color: #3e8e41;
 }
 
 a:link {
@@ -264,104 +264,19 @@ button {
 .link-images {
     display: inline-block;
     margin-top: 20px; /* Adjust as needed */
-    padding: 0px 0px;
 }
 
 .link-images a {
     text-decoration: none;
-    border: none;
-    outline: none;
 }
 
 .link-images img {
-  margin-left: 30px;
-  margin-right: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 0px 0px;
-  font-size: 16px;
-  width: 375px; /* width of button */
-  background-color: transparent !important;
-  height: auto;
-  border: none;
-  outline: none;
-  box-shadow: none;
+    width: 375px; /* Adjust the width of the images as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 0px 0px 0px 40px; /* Top, Right, Bottom, Left */
+    vertical-align: middle; /* Align the images vertically in the middle */
 }
 
 .development-paragraph {
     margin-left: 118px; /* Adjust this value as needed to move the paragraph to the left */
 }
-.Title {
-    font-size: 32px;
-}
-.Navbar-list {
-  display: inline-block;
-  list-style-type: none;
-}
-#navbar {
-  margin-left: 220px;
-}
-@media only screen and (max-width: 600px) {
-            nav {
-                flex-direction: column;
-                align-items: center;
-                margin-bottom: 20px;
-            }
-
-            .footer {
-                padding: 0px;
-                position: absolute;
-            }
-
-            .footer ul {
-                text-indent: 0;
-            }
-            .Image-button {
-                  width: 100%;
-                  height: 200px;
-                  margin-left: 0;
-                  margin-right: 0;
-            }
-            .larger-button {
-               width: 100%;
-               height: auto;
-               margin-left: 0;
-               margin-right: 0;
-               margin-top: 20px;
-            }
-           button {
-            font-size: 16px;
-            margin-left: 0px;
-            margin-right: 0px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-           }
-           .Larger-font {
-            font-size: 16px;
-            font-weight: bold;
-            }
-            .small-buttons {
-              margin: 10px 0px;
-              padding: 0px 0px;
-            }
-            .ReadMore {
-            margin-top: 0px;
-            }
-            .Title {
-            font-size: 16px;
-            font-weight: bold;
-            }
-            #navbar {
-            margin-left: 0;
-            }
-            aside {
-            max-width: 600px;
-            margin-left: 0px;
-            }
-            .container {
-            margin-left: 0px;
-            }
-            .link-images img {
-            display: none;
-            }
-        }
