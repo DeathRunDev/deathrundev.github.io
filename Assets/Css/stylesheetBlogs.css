@@ -280,3 +280,95 @@ button {
 .development-paragraph {
     margin-left: 118px; /* Adjust this value as needed to move the paragraph to the left */
 }
+.Title {
+    font-size: 32px;
+}
+.Navbar-list {
+  display: inline-block;
+  list-style-type: none;
+}
+#navbar {
+  margin-left: 220px;
+}
+.BlogThumb img {
+  width: 1200px;
+  height: auto;
+}
+.BlogTitle {
+max-width: 800px; 
+text-align: left; 
+margin-left: 200px;
+}
+@media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            .footer {
+                padding: 0px;
+                position: absolute;
+            }
+
+            .footer ul {
+                text-indent: 0;
+            }
+            .Image-button {
+                  width: 100%;
+                  height: 200px;
+                  margin-left: 0;
+                  margin-right: 0;
+            }
+            .larger-button {
+               width: 100%;
+               height: auto;
+               margin-left: 0;
+               margin-right: 0;
+               margin-top: 20px;
+            }
+           button {
+            font-size: 16px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+           }
+           .Larger-font {
+            font-size: 16px;
+            font-weight: bold;
+            }
+            .small-buttons {
+              margin: 10px 0px;
+              padding: 0px 0px;
+            }
+            .ReadMore {
+            margin-top: 0px;
+            }
+            .Title {
+            font-size: 16px;
+            font-weight: bold;
+            }
+            #navbar {
+            margin-left: 0;
+            }
+            aside {
+            max-width: 600px;
+            margin-left: 0px;
+            }
+            .BlogText {
+            max-width: 600px; 
+            margin-left: 0px;
+            }
+            .BlogThumb img {
+              width: 400px;
+            }
+            .BlogTitle {
+            max-width: 600px; 
+            text-align: left; 
+            margin-left: 0px;
+            }
+            .container {
+            margin-left: 0px;
+            }
+        }
