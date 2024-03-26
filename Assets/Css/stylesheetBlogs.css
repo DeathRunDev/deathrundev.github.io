@@ -299,6 +299,31 @@ max-width: 800px;
 text-align: left; 
 margin-left: 200px;
 }
+.Blog-Thumbs buttons {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.Blog-Thumbs button {
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px 0px;
+  font-size: 16px;
+  width: 375px; /* width of button */
+  background-color: transparent; /* Set the background color to transparent */
+}
+
+.Blog-thumbs button img {
+        width: 375px;
+        height: auto; /* Maintain the aspect ratio */
+    }
+
+.Dates {
+text-align: left;
+margin-bottom: 40px;
+}
 @media only screen and (max-width: 600px) {
             nav {
                 flex-direction: column;
@@ -370,5 +395,14 @@ margin-left: 200px;
             }
             .container {
             margin-left: 0px;
+            }
+            .development-paragraph {
+            margin-left: 0px;
+            }
+            .Blog-thumbs {
+            display: none;
+            }    
+            .Dates {
+            display: none;
             }
         }
