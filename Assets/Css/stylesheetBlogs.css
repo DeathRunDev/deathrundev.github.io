@@ -292,7 +292,7 @@ button {
 }
 .Blog-Thumbs img {
   width: 375px;
-  height: auto;
+  height: 205px;
 }
 .BlogTitle {
 max-width: 800px; 
@@ -312,13 +312,13 @@ margin-left: 200px;
   padding: 0px 0px;
   font-size: 16px;
   width: 375px; /* width of button */
-  height: auto;
+  height: 205px;
   background-color: transparent; /* Set the background color to transparent */
 }
 
 .Blog-Thumbs button img {
         width: 375px;
-        height: auto; /* Maintain the aspect ratio */
+        height: 205px; /* Maintain the aspect ratio */
     }
 
 .Dates {
