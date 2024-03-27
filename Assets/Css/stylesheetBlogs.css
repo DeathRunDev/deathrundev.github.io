@@ -316,7 +316,7 @@ margin-left: 200px;
   background-color: transparent; /* Set the background color to transparent */
 }
 
-.Blog-thumbs button img {
+.Blog-Thumbs button img {
         width: 375px;
         height: auto; /* Maintain the aspect ratio */
     }
@@ -400,7 +400,7 @@ margin-bottom: 40px;
             .development-paragraph {
             margin-left: 0px;
             }
-            .Blog-thumbs {
+            .Blog-Thumbs {
             display: none;
             }    
             .Dates {
