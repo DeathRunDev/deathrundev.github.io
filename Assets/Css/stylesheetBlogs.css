@@ -212,7 +212,8 @@ button {
   padding: 0px 0px;
   font-size: 16px;
   width: 375px; /* width of button */
-  background-color: white;
+  background-color: transparent; /* Set the background color to transparent */
+}
 
 .small-buttons button img {
         width: 375px;
@@ -289,8 +290,8 @@ button {
 #navbar {
   margin-left: 220px;
 }
-.Blog-Thumbs img {
-  width: 375px;
+.BlogThumb img {
+  width: 1200px;
   height: auto;
 }
 .BlogTitle {
@@ -311,8 +312,7 @@ margin-left: 200px;
   padding: 0px 0px;
   font-size: 16px;
   width: 375px; /* width of button */
-  height: auto;
-  background-color: white; /* Set the background color to transparent */
+  background-color: transparent; /* Set the background color to transparent */
 }
 
 .Blog-thumbs button img {
@@ -385,6 +385,9 @@ margin-bottom: 40px;
             max-width: 600px; 
             margin-left: 0px;
             }
+            .BlogThumb img {
+              width: 400px;
+            }
             .BlogTitle {
             max-width: 600px; 
             text-align: left; 
@@ -396,7 +399,7 @@ margin-bottom: 40px;
             .development-paragraph {
             margin-left: 0px;
             }
-            .Blog-Thumbs {
+            .Blog-thumbs {
             display: none;
             }    
             .Dates {
