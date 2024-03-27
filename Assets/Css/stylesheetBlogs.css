@@ -290,7 +290,7 @@ button {
   margin-left: 220px;
 }
 .BlogThumb img {
-  width: 1200px;
+  width: 375px;
   height: auto;
 }
 .BlogTitle {
@@ -384,9 +384,6 @@ margin-bottom: 40px;
             .BlogText {
             max-width: 600px; 
             margin-left: 0px;
-            }
-            .BlogThumb img {
-              width: 400px;
             }
             .BlogTitle {
             max-width: 600px; 
