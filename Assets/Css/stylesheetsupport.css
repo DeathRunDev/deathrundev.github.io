@@ -389,4 +389,11 @@ button:hover {
             #navbar {
             margin-left: 0;
             }
+            .custom-button {
+              max-height: 151px;
+              max-width: 128px;
+            }
+            h3 {
+            font-size: 32px;
+            }
         }
