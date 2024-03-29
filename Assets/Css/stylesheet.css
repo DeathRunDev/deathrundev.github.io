@@ -297,6 +297,16 @@ button:hover {
 .Larger-font {
     font-size: 40px;
 }
+.BlogText {
+    text-align: left; 
+    max-width: 800px; 
+    font-size: 20px; 
+    margin-left: 200px;
+    line-height: 1.5em;
+}
+.Larger-font {
+    font-size: 40px;
+}
 .ReadMore {
     text-decoration-line: underline; 
     text-decoration-style: double; 
@@ -311,6 +321,15 @@ button:hover {
 }
 #navbar {
   margin-left: 220px;
+}
+.BlogThumb img {
+  width: 1200px;
+  height: auto;
+}
+.BlogTitle {
+max-width: 800px; 
+text-align: left; 
+margin-left: 200px;
 }
 @media only screen and (max-width: 600px) {
             nav {
@@ -354,7 +373,6 @@ button:hover {
             .small-buttons {
               margin: 10px 0px;
               padding: 0px 0px;
-              width: 100px;
             }
             .ReadMore {
             margin-top: 0px;
@@ -366,4 +384,26 @@ button:hover {
             #navbar {
             margin-left: 0;
             }
+            aside {
+            max-width: 600px;
+            margin-left: 0px;
+            }
+            .BlogText {
+            max-width: 600px; 
+            margin-left: 0px;
+            }
+            .BlogThumb img {
+              width: 400px;
+            }
+            .BlogTitle {
+            max-width: 600px; 
+            text-align: left; 
+            margin-left: 0px;
+            }
+            .container {
+            margin-left: 0px;
+            }
+            aside {
+            max-width: 600px;
+}
         }
