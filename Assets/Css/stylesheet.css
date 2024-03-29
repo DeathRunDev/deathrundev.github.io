@@ -382,5 +382,8 @@ margin-left: 200px;
             }
             aside {
             max-width: 600px;
-}
+            }
+            body {
+            max-width: 600px;
+            }
         }
