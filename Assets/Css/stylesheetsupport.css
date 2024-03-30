@@ -397,7 +397,7 @@ button:hover {
             max-height: 151px;
             max-width: 128px;
             }
-            h3 {
-            font-size: 20px;
+            .reports-section h3 {
+            font-size: 28px;
             }
         }
