@@ -329,7 +329,7 @@ margin-bottom: 40px;
 width: auto;
 height: auto;
 }
-.logo img {
+.logo {
 width: auto;
 height: auto;
 }
@@ -415,7 +415,7 @@ height: auto;
             .Dates {
             display: none;
             }
-            .logo img {
+            .logo {
             width: 100px;
             height: auto;
             }
