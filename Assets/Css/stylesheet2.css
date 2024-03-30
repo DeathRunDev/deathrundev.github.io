@@ -312,6 +312,11 @@ button:hover {
 #navbar {
   margin-left: 220px;
 }
+.logo {
+width: auto;
+height: auto;
+vertical-align: middle;
+}
 @media only screen and (max-width: 600px) {
             nav {
                 flex-direction: column;
@@ -367,6 +372,10 @@ button:hover {
             }
             .small-buttons button {
             width: 150px;
+            }
+            .logo {
+            width: 250;
+            height: auto;
             }
         }
 
