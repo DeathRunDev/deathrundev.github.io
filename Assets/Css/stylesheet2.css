@@ -354,7 +354,6 @@ button:hover {
             .small-buttons {
               margin: 10px 0px;
               padding: 0px 0px;
-              width: 50px;
             }
             .ReadMore {
             margin-top: 0px;
@@ -365,6 +364,9 @@ button:hover {
             }
             #navbar {
             margin-left: 0;
+            }
+            .small-buttons button {
+            width: 100px;
             }
         }
 
