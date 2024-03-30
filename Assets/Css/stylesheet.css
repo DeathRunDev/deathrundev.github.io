@@ -429,5 +429,9 @@ margin-left: 200px;
             }
             aside {
             max-width: 600px;
+            }
+            section {
+            position: absolute;
+            padding: 0px 0px;
 }
         }
