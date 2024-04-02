@@ -417,10 +417,14 @@ vertical-align: middle;
             height: auto;
             }
             .support-section {
-            flex-direction: column; /* Change flex direction to column for smaller screens */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
             }
-           .left-section,
-           .right-section {
-            width: 100%; /* Make both sections take up full width */
+            .left-section,
+            .right-section {
+            width: 100%;
             }
         }
