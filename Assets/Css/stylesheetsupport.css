@@ -404,6 +404,9 @@ vertical-align: middle;
             max-height: 151px;
             max-width: 128px;
             }
+            .custom-button:hover {
+            max-height: 151px;
+            }
             .reports-section h3 {
             font-size: 28px;
             }
