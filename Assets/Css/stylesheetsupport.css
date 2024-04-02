@@ -313,7 +313,9 @@ button:hover {
     max-width: 400px;
     margin: 0 auto;
 }
-
+.contact-info a {
+    color: blue;
+}
 .staff-applications .support-button {
     width: 400px;
     margin-top: 10px;
