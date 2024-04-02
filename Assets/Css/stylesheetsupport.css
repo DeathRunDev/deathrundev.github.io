@@ -416,4 +416,11 @@ vertical-align: middle;
             width: 250px;
             height: auto;
             }
+            .support-section {
+            flex-direction: column; /* Change flex direction to column for smaller screens */
+            }
+           .left-section,
+           .right-section {
+            width: 100%; /* Make both sections take up full width */
+            }
         }
