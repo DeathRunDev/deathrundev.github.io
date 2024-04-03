@@ -428,8 +428,6 @@ vertical-align: middle;
             width: 100%;
             }
             .contact-info p {
-            padding: 100px;
-            border: 2px solid blue;
-            max-width: 80%;
+            border: none;
   }
         }
