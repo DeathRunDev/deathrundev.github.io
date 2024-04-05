@@ -323,10 +323,13 @@ button:hover {
 }
 .BlogText {
     text-align: left; 
-    max-width: 800px; 
+    max-width: 720px; 
     font-size: 20px; 
     margin-left: 200px;
     line-height: 1.5em;
+}
+.BlogText p {
+    margin-top: 50px;
 }
 .Larger-font {
     font-size: 40px;
