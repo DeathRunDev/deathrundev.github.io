@@ -428,6 +428,9 @@ vertical-align: middle;
             .BlogThumb img {
               width: 400px;
             }
+            .BlogImage img {
+              width: 400px;
+            }
             .BlogTitle {
             max-width: 600px; 
             text-align: left; 
